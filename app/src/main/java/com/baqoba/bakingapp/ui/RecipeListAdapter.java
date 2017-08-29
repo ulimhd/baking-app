@@ -11,9 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.baqoba.bakingapp.R;
-import com.baqoba.bakingapp.data.RecipeModel;
-
-import org.w3c.dom.Text;
+import com.baqoba.bakingapp.data.Recipe;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +22,7 @@ import java.util.List;
 
 public class RecipeListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>  {
 
-    private List<RecipeModel> recipeResults;
+    private List<Recipe> recipeResults;
     private Context mContext;
 
     private final RecipeListAdapterOnClickHandler mClickHandler;
@@ -36,7 +34,7 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
     }
 
     public interface RecipeListAdapterOnClickHandler {
-        void onClick(RecipeModel currentRecipe);
+        void onClick(Recipe currentRecipe);
     }
 
     protected class MyItemHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
@@ -59,7 +57,7 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
             mClickHandler.onClick(currentmovie);
 
 */
-            RecipeModel currentMovie = recipeResults.get(getAdapterPosition());
+            Recipe currentMovie = recipeResults.get(getAdapterPosition());
             //   mClickHandler.onClick(getAdapterPosition(), view);
             mClickHandler.onClick(currentMovie);
         }
@@ -86,7 +84,10 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-        RecipeModel result = recipeResults.get(position);
+        Recipe result = recipeResults.get(position);
+        final MyItemHolder myItemHolder = (MyItemHolder) holder;
+        myItemHolder.tvRecipeName.setText(result.getName());
+
 /*        String id = result.getKey();
 
         String thumbnailUrl = "http://img.youtube.com/vi/".concat(id).concat("/hqdefault.jpg");
@@ -106,14 +107,14 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
         return recipeResults == null ? 0 : recipeResults.size();
     }
 
-    public void add(RecipeModel r) {
+    public void add(Recipe r) {
         recipeResults.add(r);
         Log.d("Test6", r.toString());
         notifyItemInserted(recipeResults.size() - 1);
     }
 
-    public void addAll(List<RecipeModel> trailerResults) {
-        for (RecipeModel result : trailerResults) {
+    public void addAll(List<Recipe> trailerResults) {
+        for (Recipe result : trailerResults) {
             Log.d("result: ", result.toString());
             add(result);
             Log.d("Test7", "Test7");
