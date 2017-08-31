@@ -4,23 +4,28 @@ package com.baqoba.bakingapp.data;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 public class Step {
 
-    @SerializedName("id")
-    @Expose
-    private Integer id;
-    @SerializedName("shortDescription")
-    @Expose
+    private int id;
     private String shortDescription;
-    @SerializedName("description")
-    @Expose
     private String description;
-    @SerializedName("videoURL")
-    @Expose
     private String videoURL;
-    @SerializedName("thumbnailURL")
-    @Expose
     private String thumbnailURL;
+
+    public Step(JSONObject step_json){
+        try{
+            this.id = step_json.getInt("id");
+            this.shortDescription = step_json.getString("shortDescription");
+            this.description = step_json.getString("description");
+            this.videoURL = step_json.getString("videoURL");
+            this.thumbnailURL = step_json.getString("thumbnailURL");
+        }catch(JSONException e){
+            e.printStackTrace();
+        }
+    }
 
     public Integer getId() {
         return id;

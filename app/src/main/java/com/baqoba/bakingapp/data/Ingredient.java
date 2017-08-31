@@ -4,19 +4,26 @@ package com.baqoba.bakingapp.data;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 public class Ingredient {
 
-    @SerializedName("quantity")
-    @Expose
-    private Integer quantity;
-    @SerializedName("measure")
-    @Expose
+    private double quantity;
     private String measure;
-    @SerializedName("ingredient")
-    @Expose
     private String ingredient;
 
-    public Integer getQuantity() {
+    public Ingredient(JSONObject ingredient_json){
+        try{
+            this.quantity = ingredient_json.getDouble("quantity");
+            this.measure = ingredient_json.getString("measure");
+            this.ingredient = ingredient_json.getString("ingredient");
+        }catch(JSONException e){
+            e.printStackTrace();
+        }
+    }
+
+    public Double getQuantity() {
         return quantity;
     }
 

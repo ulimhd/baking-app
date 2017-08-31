@@ -51,7 +51,7 @@ public class StepsFragment extends Fragment {
         fragment.setArguments(args);
         return fragment;
     }
-
+/*
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,7 +60,7 @@ public class StepsFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-
+*/
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -75,7 +75,7 @@ public class StepsFragment extends Fragment {
         }
     }
 
-    @Override
+  /*  @Override
     public void onAttach(Context context) {
         super.onAttach(context);
         if (context instanceof OnFragmentInteractionListener) {
@@ -91,7 +91,7 @@ public class StepsFragment extends Fragment {
         super.onDetach();
         mListener = null;
     }
-
+*/
     /**
      * This interface must be implemented by activities that contain this
      * fragment to allow an interaction in this fragment to be communicated

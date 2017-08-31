@@ -1,77 +1,65 @@
 
 package com.baqoba.bakingapp.data;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 public class Recipe {
 
-    @SerializedName("id")
-    @Expose
-    private Integer id;
-    @SerializedName("name")
-    @Expose
-    public String name;
-    @SerializedName("ingredients")
-    @Expose
-    private List<Ingredient> ingredients = null;
-    @SerializedName("steps")
-    @Expose
-    private List<Step> steps = null;
-    @SerializedName("servings")
-    @Expose
-    private Integer servings;
-    @SerializedName("image")
-    @Expose
+    private String name;
+    private ArrayList<Ingredient> ingredient;
+    private ArrayList<Step> step;
+    private String servings;
     private String image;
 
-    public Integer getId() {
-        return id;
+    public Recipe(JSONObject recipe_json){
+        try{
+            this.name = recipe_json.getString("name");
+
+            this.ingredient = new ArrayList<>();
+            JSONArray ingredientJSONArray = recipe_json.getJSONArray("ingredients");
+            for (int i = 0; i < ingredientJSONArray.length(); i++){
+                ingredient.add(new Ingredient(ingredientJSONArray.getJSONObject(i)));
+            }
+
+            this.step = new ArrayList<>();
+            JSONArray stepJSONArray = recipe_json.getJSONArray("steps");
+            for (int i = 0; i < stepJSONArray.length(); i++){
+                step.add(new Step(stepJSONArray.getJSONObject(i)));
+            }
+
+            this.servings = recipe_json.getString("servings");
+            this.image = recipe_json.getString("image");
+
+        }catch(JSONException e){
+            e.printStackTrace();
+        }
     }
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getName() {
+    public String getName(){
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public ArrayList<Ingredient> getIngredient(){
+        return ingredient;
     }
 
-    public List<Ingredient> getIngredients() {
-        return ingredients;
+    public ArrayList<Step> getStep(){
+        return step;
     }
 
-    public void setIngredients(List<Ingredient> ingredients) {
-        this.ingredients = ingredients;
-    }
-
-    public List<Step> getSteps() {
-        return steps;
-    }
-
-    public void setSteps(List<Step> steps) {
-        this.steps = steps;
-    }
-
-    public Integer getServings() {
+    public String getServings(){
         return servings;
     }
 
-    public void setServings(Integer servings) {
-        this.servings = servings;
-    }
-
-    public String getImage() {
+    public String getImage(){
         return image;
     }
-
-    public void setImage(String image) {
-        this.image = image;
-    }
-
 }

@@ -1,4 +1,4 @@
-package com.baqoba.bakingapp.ui;
+package com.baqoba.bakingapp.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -36,7 +36,7 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
     }
 
     public interface RecipeListAdapterOnClickHandler {
-        void onClick(Recipe currentRecipe);
+        void onClick(int index);
     }
 
     protected class MyItemHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
@@ -53,9 +53,8 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
 
         @Override
         public void onClick(View view) {
-
-            Recipe currentRecipe = recipeResults.get(getAdapterPosition());
-            mClickHandler.onClick(currentRecipe);
+            int clickedPosition = getAdapterPosition();
+            mClickHandler.onClick(clickedPosition);
         }
     }
 
@@ -82,18 +81,7 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
         final MyItemHolder myItemHolder = (MyItemHolder) holder;
         myItemHolder.tvRecipeName.setText(result.getName());
 
-/*        String id = result.getKey();
 
-        String thumbnailUrl = "http://img.youtube.com/vi/".concat(id).concat("/hqdefault.jpg");
-        Log.d("THUMB:", thumbnailUrl);
-        final MyItemHolder trailerVH = (MyItemHolder) holder;
-
-        if(result.getId().equals("null")){
-            Picasso.with(context).load(R.drawable.no_image).resize(185,277).into(trailerVH.trailerImage);
-        } else {
-            Picasso.with(context).load(thumbnailUrl).into(trailerVH.trailerImage);
-        }
-*/
     }
 
     @Override

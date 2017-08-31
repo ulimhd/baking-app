@@ -3,6 +3,7 @@ package com.baqoba.bakingapp.ui;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
@@ -17,6 +18,7 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.baqoba.bakingapp.R;
+import com.baqoba.bakingapp.adapters.RecipeListAdapter;
 import com.baqoba.bakingapp.data.Recipe;
 import com.baqoba.bakingapp.utils.RecipeApi;
 import com.baqoba.bakingapp.utils.RecipeService;
@@ -53,6 +55,7 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
     public static final int READ_TIMEOUT = 15000;
     GridLayoutManager layoutManager;
    // LinearLayoutManager layoutManager;
+    String name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,8 +77,11 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
 
 
     @Override
-    public void onClick(Recipe currentRecipe) {
-        Toast.makeText(MainActivity.this, currentRecipe.getName().toString(), Toast.LENGTH_LONG).show();
+    public void onClick(int clickedItemIndex) {
+        Toast.makeText(MainActivity.this, recipes.get(clickedItemIndex).getName(), Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(getApplicationContext(), DetailActivity.class);
+        intent.putExtra("item", clickedItemIndex);
+        startActivity(intent);
     }
 
     @Override
@@ -86,7 +92,7 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
             pdLoading.dismiss();
     }
 
-    protected void onPostExcute(ArrayList<Recipe> recipes) {
+    protected void loadList(ArrayList<Recipe> recipes) {
 
         //this method will be running on UI thread
         try {
@@ -96,9 +102,7 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
            // layoutManager = new LinearLayoutManager(this);
 
             mAdapter = new RecipeListAdapter(getApplicationContext(), this, recipes);
-
             rvRecipes.setLayoutManager(layoutManager);
-            rvRecipes.setHasFixedSize(true);
             rvRecipes.setAdapter(mAdapter);
 
         } catch (Exception e) {
@@ -150,13 +154,9 @@ public class FetchBakesTask extends AsyncTask<Void,Void ,ArrayList<Recipe> >{
             }
 
             JSONArray jArray = new JSONArray(buffer.toString());
+            recipes = new ArrayList<>();
             for(int i=0;i<jArray.length();i++){
-                JSONObject json_data = jArray.getJSONObject(i);
-                Recipe recipeData = new Recipe();
-                String name=json_data.getString("name");
-                Log.d("namea:" , name);
-                recipeData.setName(name);
-                recipes.add(recipeData);
+                recipes.add(new Recipe(jArray.getJSONObject(i)));
             }
 
             return recipes;
@@ -172,6 +172,7 @@ public class FetchBakesTask extends AsyncTask<Void,Void ,ArrayList<Recipe> >{
                     reader.close();
                 }
             } catch (Exception e) {
+                e.printStackTrace();
             }
         }
     }
@@ -183,7 +184,7 @@ public class FetchBakesTask extends AsyncTask<Void,Void ,ArrayList<Recipe> >{
         }else {
             Toast.makeText(getApplicationContext(),"dialog is not found", Toast.LENGTH_SHORT).show();
         }
-        onPostExcute(recipes);
+        loadList(recipes);
     }
 }
 

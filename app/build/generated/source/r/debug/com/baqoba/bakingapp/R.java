@@ -2414,7 +2414,6 @@ containing a value of this type.
         public static final int end_padder=0x7f0b007c;
         public static final int expand_activities_button=0x7f0b0030;
         public static final int expanded_menu=0x7f0b0045;
-        public static final int head_container=0x7f0b0060;
         public static final int home=0x7f0b0004;
         public static final int homeAsUp=0x7f0b0016;
         public static final int icon=0x7f0b0034;
@@ -2490,6 +2489,7 @@ containing a value of this type.
         public static final int topPanel=0x7f0b0041;
         public static final int tv_recipe_name=0x7f0b0065;
         public static final int up=0x7f0b0009;
+        public static final int upper_container=0x7f0b0060;
         public static final int useLogo=0x7f0b001a;
         public static final int withText=0x7f0b0029;
         public static final int wrap_content=0x7f0b0021;
