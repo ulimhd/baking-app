@@ -42,6 +42,7 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
     View rootView;
     int index=0;
     public static ArrayList<Step> step= new ArrayList<>();
+    public static Bundle bundle = new Bundle();
 
     private StepAdapter stepAdapter;
 
@@ -102,8 +103,11 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
     public void onClick(int clickedItemIndex) {
     //    Toast.makeText(getActivity(), step.get(index).getShortDescription(), Toast.LENGTH_LONG).show();
         Toast.makeText(getActivity(), getActivity().toString(), Toast.LENGTH_LONG).show();
+        bundle.putInt("item_index", clickedItemIndex);
+
         FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
         StepsFragment stepsFragment = new StepsFragment();
+        stepsFragment.setArguments(bundle);
         fragmentManager.beginTransaction()
                 .replace(R.id.detail_container, stepsFragment)
                 .commit();
