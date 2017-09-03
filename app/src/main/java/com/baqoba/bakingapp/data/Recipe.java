@@ -1,6 +1,7 @@
 
 package com.baqoba.bakingapp.data;
 
+import java.io.Serializable;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;

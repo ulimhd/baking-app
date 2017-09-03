@@ -46,7 +46,7 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
 
         public MyItemHolder(View itemView) {
             super(itemView);
-            ivRecipeImage = (ImageView) itemView.findViewById(R.id.rv_recipes);
+            ivRecipeImage = (ImageView) itemView.findViewById(R.id.iv_recipe_poster);
             tvRecipeName = (TextView) itemView.findViewById(R.id.tv_recipe_name);
             itemView.setOnClickListener(this);
         }

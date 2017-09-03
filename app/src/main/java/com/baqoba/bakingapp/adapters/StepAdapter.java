@@ -1,47 +1,101 @@
 package com.baqoba.bakingapp.adapters;
 
 import android.content.Context;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.baqoba.bakingapp.R;
 import com.baqoba.bakingapp.data.Step;
+import com.google.android.exoplayer2.DefaultLoadControl;
+import com.google.android.exoplayer2.ExoPlayerFactory;
+import com.google.android.exoplayer2.LoadControl;
+import com.google.android.exoplayer2.SimpleExoPlayer;
+import com.google.android.exoplayer2.Timeline;
+import com.google.android.exoplayer2.extractor.DefaultExtractorsFactory;
+import com.google.android.exoplayer2.source.ExtractorMediaSource;
+import com.google.android.exoplayer2.source.MediaSource;
+import com.google.android.exoplayer2.trackselection.DefaultTrackSelector;
+import com.google.android.exoplayer2.trackselection.TrackSelection;
+import com.google.android.exoplayer2.trackselection.TrackSelector;
+import com.google.android.exoplayer2.trackselection.AdaptiveTrackSelection;
+import com.google.android.exoplayer2.ui.SimpleExoPlayerView;
+import com.google.android.exoplayer2.upstream.BandwidthMeter;
+import com.google.android.exoplayer2.upstream.DataSource;
+import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter;
+import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
+import com.google.android.exoplayer2.upstream.TransferListener;
+import com.google.android.exoplayer2.util.Util;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by Admin on 31/08/2017.
  */
 
-public class StepAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
+public class StepAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>  {
+
     private List<Step> stepResults;
     private Context mContext;
+    String layoutName;
+    private SimpleExoPlayer player;
+    private BandwidthMeter bandwidthMeter;
+    private Timeline.Window window;
+    private DataSource.Factory mediaDataSourceFactory;
+    private boolean shouldAutoPlay;
+    private DefaultTrackSelector trackSelector;
 
-    public StepAdapter(Context context, List<Step> step) {
+    private final StepAdapterOnClickHandler mClickHandler;
+
+    public StepAdapter(Context context, StepAdapterOnClickHandler clickHandler, List<Step> steps, String layoutName) {
         this.mContext = context;
-        //  recipeResults= new ArrayList<>();
-        this.stepResults = step;
+        //  StepResults= new ArrayList<>();
+        this.stepResults = steps;
+        mClickHandler = clickHandler;
+        Log.d("fadksfa;", "dalfd");
+        this.layoutName = layoutName;
+
     }
 
-    protected class MyItemHolder extends RecyclerView.ViewHolder{
-        private TextView tvStepName, tvQuantity, tvMeasure;
+    public interface StepAdapterOnClickHandler {
+        void onClick(int index);
+    }
+
+    public class MyItemHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
+
+        private TextView tvShortDescription, tvDescription;
+        private SimpleExoPlayerView simpleExoPlayerView;
+
 
 
         public MyItemHolder(View itemView) {
             super(itemView);
-            tvQuantity = (TextView) itemView.findViewById(R.id.tv_quantity);
-            tvMeasure = (TextView) itemView.findViewById(R.id.tv_measure);
-            tvStepName = (TextView) itemView.findViewById(R.id.tv_step_name);
+            tvDescription = (TextView) itemView.findViewById(R.id.tv_description);
+            tvShortDescription = (TextView) itemView.findViewById(R.id.tv_short_description);
+            simpleExoPlayerView = (SimpleExoPlayerView) itemView.findViewById(R.id.exo_player);
+
+
+
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View view) {
+            int clickedPosition = getAdapterPosition();
+            mClickHandler.onClick(clickedPosition);
         }
     }
-
+/*
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        RecyclerView.ViewHolder viewHolder = null;
+    //    RecyclerView.ViewHolder viewHolder = null;
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
 
         viewHolder = getViewHolder(parent, inflater);
@@ -55,19 +109,92 @@ public class StepAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
         viewHolder = new MyItemHolder(view);
         return viewHolder;
     }
+*/
+
+    @Override
+    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
+
+        RecyclerView.ViewHolder viewHolder;
+        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.list_step , viewGroup , false);
+        viewHolder =new MyItemHolder(view);
+        return  viewHolder;
+    }
+
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         Step result = stepResults.get(position);
         final MyItemHolder myItemHolder = (MyItemHolder) holder;
-        myItemHolder.tvQuantity.setText(String.valueOf(result.getQuantity()));
-        myItemHolder.tvMeasure.setText(result.getMeasure());
-        myItemHolder.tvStepName.setText(result.getStep());
+        switch(holder.getItemViewType()){
+            case 0:
+                myItemHolder.tvShortDescription.setText(result.getShortDescription());
+                myItemHolder.tvDescription.setVisibility(View.GONE);
+                myItemHolder.simpleExoPlayerView.setVisibility(View.GONE);
+                Log.d("holder.get0", String.valueOf(holder.getItemViewType()));
+                break;
+            case 1:
+                myItemHolder.tvShortDescription.setVisibility(View.GONE);
+                myItemHolder.tvDescription.setText(result.getShortDescription());
+/*
+                shouldAutoPlay = true;
+                bandwidthMeter = new DefaultBandwidthMeter();
+                mediaDataSourceFactory = new DefaultDataSourceFactory(this, Util.getUserAgent(mContext, "mediaPlayerSample"), (TransferListener<? super DataSource>) bandwidthMeter);
+                window = new Timeline.Window();
 
-        //TODO (1) Set for multipole view holder for StepAdapter: one for in fragment_master_list, one for used in step description
+                myItemHolder.simpleExoPlayerView.requestFocus();
+                TrackSelection.Factory videoTrackSelectionFactory =
+                        new AdaptiveTrackSelection.Factory(bandwidthMeter);
+
+                trackSelector = new DefaultTrackSelector(videoTrackSelectionFactory);
+
+                player = ExoPlayerFactory.newSimpleInstance(mContext, trackSelector);
+
+                myItemHolder.simpleExoPlayerView.setPlayer(player);
+                */
+
+                TrackSelector trackSelector = new DefaultTrackSelector();
+                LoadControl loadControl = new DefaultLoadControl();
+                player = ExoPlayerFactory.newSimpleInstance(mContext, trackSelector);
+                myItemHolder.simpleExoPlayerView.setPlayer(player);
+                // Prepare the MediaSource.
+                String userAgent = Util.getUserAgent(mContext, "ClassicalMusicQuiz");
+                MediaSource mediaSource = new ExtractorMediaSource(Uri.parse(result.getVideoURL()), new DefaultDataSourceFactory(
+                        mContext, userAgent), new DefaultExtractorsFactory(), null, null);
+                player.prepare(mediaSource);
+                player.setPlayWhenReady(true);
+
+                Log.d("holder.get1", String.valueOf(holder.getItemViewType()));
+                break;
+            default:
+                break;
+        }
+
+
+
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        if(layoutName.equals("R.layout.fragment_master_list")){
+            return 0;
+        }else{
+            return 1;
+        }
     }
 
     @Override
     public int getItemCount() {
         return stepResults == null ? 0 : stepResults.size();
     }
+
+    public void add(Step r) {
+        stepResults.add(r);
+        notifyItemInserted(stepResults.size() - 1);
+    }
+
+    public void addAll(List<Step> trailerResults) {
+        for (Step result : trailerResults) {
+            add(result);
+        }
+    }
+}

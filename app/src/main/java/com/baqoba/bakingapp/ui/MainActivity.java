@@ -80,7 +80,8 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
     public void onClick(int clickedItemIndex) {
         Toast.makeText(MainActivity.this, recipes.get(clickedItemIndex).getName(), Toast.LENGTH_LONG).show();
         Intent intent = new Intent(getApplicationContext(), DetailActivity.class);
-        intent.putExtra("item", clickedItemIndex);
+
+        intent.putExtra("item_index", clickedItemIndex);
         startActivity(intent);
     }
 

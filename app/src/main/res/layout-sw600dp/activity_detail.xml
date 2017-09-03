@@ -37,7 +37,7 @@
         one for each Android-Me part (head, body, legs) -->
 
         <FrameLayout
-            android:id="@+id/upper_container"
+            android:id="@+id/detail_container"
             android:layout_width="match_parent"
             android:layout_height="180dp"
             android:scaleType="centerInside"/>

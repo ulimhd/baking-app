@@ -10,8 +10,8 @@ import android.util.Log;
 import com.baqoba.bakingapp.R;
 import com.baqoba.bakingapp.data.Step;
 
-public class DetailActivity extends AppCompatActivity implements MasterListFragment.OnFragmentInteractionListener{
-    private boolean mTwoPane;
+public class DetailActivity extends AppCompatActivity {
+    public static boolean mTwoPane;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,7 @@ public class DetailActivity extends AppCompatActivity implements MasterListFragm
                 FragmentManager fragmentManager = getSupportFragmentManager();
                 StepsFragment stepsFragment = new StepsFragment();
                 fragmentManager.beginTransaction()
-                        .add(R.id.upper_container, stepsFragment)
+                        .replace(R.id.detail_container, stepsFragment)
                         .commit();
             }
             else{
@@ -40,8 +40,4 @@ public class DetailActivity extends AppCompatActivity implements MasterListFragm
         }
     }
 
-    @Override
-    public void onFragmentInteraction(Uri uri) {
-
-    }
 }
