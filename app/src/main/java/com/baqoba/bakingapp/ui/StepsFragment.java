@@ -92,13 +92,23 @@ public class StepsFragment extends Fragment {
 
         Bundle bundle = this.getArguments();
         if(bundle != null){
-            index = bundle.getInt("item_index");
-            videoUrl=step.get(index).getVideoURL();
-            stepDescription = step.get(index).getDescription();
-            Log.d("videUrl", videoUrl);
-            Log.d("stepdesc", stepDescription);
+            try {
+                index = bundle.getInt("item_index");
+                videoUrl = step.get(index).getVideoURL();
+                stepDescription = step.get(index).getDescription();
+                Log.d("videUrl", videoUrl);
+                Log.d("stepdesc", stepDescription);
 
-            initializePlayer(Uri.parse(videoUrl));
+                if(!videoUrl.isEmpty()){
+                    initializePlayer(Uri.parse(videoUrl));
+                }
+
+
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+
+
         }
 
 
@@ -162,12 +172,14 @@ public class StepsFragment extends Fragment {
             // Create an instance of the ExoPlayer.
             TrackSelector trackSelector = new DefaultTrackSelector();
             LoadControl loadControl = new DefaultLoadControl();
-            mExoPlayer = ExoPlayerFactory.newSimpleInstance(getContext(), trackSelector);
-            mPlayerView.setPlayer(mExoPlayer);
+            mExoPlayer = ExoPlayerFactory.newSimpleInstance(getContext(), trackSelector, loadControl);
+
             // Prepare the MediaSource.
             String userAgent = Util.getUserAgent(getContext(), "StepsFragment");
             MediaSource mediaSource = new ExtractorMediaSource(mediaUri, new DefaultDataSourceFactory(
                     getContext(), userAgent), new DefaultExtractorsFactory(), null, null);
+
+            mPlayerView.setPlayer(mExoPlayer);
             mExoPlayer.prepare(mediaSource);
             mExoPlayer.setPlayWhenReady(true);
         }
