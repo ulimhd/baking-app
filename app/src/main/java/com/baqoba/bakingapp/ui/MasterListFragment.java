@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.baqoba.bakingapp.adapters.IngredientAdapter;
@@ -39,9 +40,11 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
 //    private OnFragmentInteractionListener mListener;
 
     private RecyclerView stepRecyclerView;
+    TextView tvIngredients;
     View rootView;
     int index=0;
     public static ArrayList<Step> step= new ArrayList<>();
+    public static ArrayList<Ingredient> ingredient = new ArrayList<>();
     public static Bundle bundle = new Bundle();
 
     private StepAdapter stepAdapter;
@@ -77,13 +80,14 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         rootView = inflater.inflate(R.layout.fragment_master_list, container, false);
         stepRecyclerView = (RecyclerView) rootView.findViewById(R.id.rv_step_list);
-
+        tvIngredients = (TextView) rootView.findViewById(R.id.tv_ingredient);
 
         index = getActivity().getIntent().getExtras().getInt("item_index");
         Log.d("index", String.valueOf(index));
         Log.d("recipe_name", recipes.get(index).getName());
         Log.d("steps:", recipes.get(index).getStep().toString());
         step = recipes.get(index).getStep();
+        ingredient = recipes.get(index).getIngredient();
 
       //  LinearLayoutManager layoutManager= new LinearLayoutManager(getActivity());
          layoutManagerStep = new LinearLayoutManager(getActivity());
@@ -96,6 +100,20 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
         stepRecyclerView.setAdapter(stepAdapter);
  //       Log.d("recipe_serving", recipes.get(index).getServings());
         // Inflate the layout for this fragment
+
+        tvIngredients.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(), "Click Ingredient!", Toast.LENGTH_LONG).show();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                IngredientFragment ingredientFragment = new IngredientFragment();
+             //   stepsFragment.setArguments(bundle);
+                fragmentManager.beginTransaction()
+                        .replace(R.id.detail_container, ingredientFragment)
+                        .commit();
+            }
+        });
         return rootView;
     }
 
@@ -112,18 +130,14 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
                 .replace(R.id.detail_container, stepsFragment)
                 .commit();
 
+
     }
 
 
     @Override
     public void onClick(View v) {
-        switch(v.getId()){
-            case R.id.tv_ingredient:
-                Toast.makeText(getActivity(), "Click Ingredient!", Toast.LENGTH_LONG).show();
-                break;
-
-        }
     }
+
 
 /*
     // TODO: Rename method, update argument and hook method into UI event

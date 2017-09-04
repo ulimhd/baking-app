@@ -11,6 +11,7 @@ import android.view.View;
 
 import com.baqoba.bakingapp.R;
 import com.baqoba.bakingapp.data.Step;
+import static com.baqoba.bakingapp.ui.MainActivity.recipes;
 
 public class DetailActivity extends AppCompatActivity {
     public static boolean mTwoPane;
@@ -20,6 +21,14 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+        int index = getIntent().getExtras().getInt("item_index");
+
+        if (getSupportActionBar() != null)
+        {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            setTitle(recipes.get(index).getName());
+        }
+
         if(findViewById(R.id.android_me_linear_layout) != null){
          //   this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
             mTwoPane = true;
@@ -28,9 +37,9 @@ public class DetailActivity extends AppCompatActivity {
             if(savedInstanceState == null) {
                 Log.d("instancenull", "isnull");
                 FragmentManager fragmentManager = getSupportFragmentManager();
-                StepsFragment stepsFragment = new StepsFragment();
+                IngredientFragment ingredientFragment = new IngredientFragment();
                 fragmentManager.beginTransaction()
-                        .replace(R.id.detail_container, stepsFragment)
+                        .replace(R.id.detail_container, ingredientFragment)
                         .commit();
             }
             else{

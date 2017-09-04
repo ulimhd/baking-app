@@ -11,7 +11,8 @@
         android:id="@+id/master_list_fragment"
         android:name="com.baqoba.bakingapp.ui.MasterListFragment"
         android:layout_width="400dp"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"/>
 
     <!-- A small divider -->
     <View
@@ -39,7 +40,7 @@
         <FrameLayout
             android:id="@+id/detail_container"
             android:layout_width="match_parent"
-            android:layout_height="180dp"
+            android:layout_height="match_parent"
             android:scaleType="centerInside"/>
 
     </LinearLayout>

@@ -3,12 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\Admin\.android\build-cache\581a46490c536c7b387812a677d78bbb99148c2e\output\jars\classes.jar"
+        jar="/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="31ead391552fc8d93a7b87b0f15e83755b908904">
-        <dex dex="D:\Misc\AndroidStudioProjects\BakingApp\baking-app\app\build\intermediates\pre-dexed\debug\classes_f0f449d03b168547d8e017f351e4a7f3ba34da8b.jar" />
+        <dex dex="/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/pre-dexed/debug/classes_4030c069b4442a9b3b8efa4ed79bdac9915fe630.jar" />
     </item>
 
 </items>

@@ -70,16 +70,13 @@ public class StepAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>  
 
     public class MyItemHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
-        private TextView tvShortDescription, tvDescription;
-        private SimpleExoPlayerView simpleExoPlayerView;
+        private TextView tvShortDescription;
 
 
 
         public MyItemHolder(View itemView) {
             super(itemView);
-            tvDescription = (TextView) itemView.findViewById(R.id.tv_description);
             tvShortDescription = (TextView) itemView.findViewById(R.id.tv_short_description);
-            simpleExoPlayerView = (SimpleExoPlayerView) itemView.findViewById(R.id.exo_player);
 
 
 
@@ -128,13 +125,10 @@ public class StepAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>  
         switch(holder.getItemViewType()){
             case 0:
                 myItemHolder.tvShortDescription.setText(result.getShortDescription());
-                myItemHolder.tvDescription.setVisibility(View.GONE);
-                myItemHolder.simpleExoPlayerView.setVisibility(View.GONE);
                 Log.d("holder.get0", String.valueOf(holder.getItemViewType()));
                 break;
             case 1:
                 myItemHolder.tvShortDescription.setVisibility(View.GONE);
-                myItemHolder.tvDescription.setText(result.getShortDescription());
 /*
                 shouldAutoPlay = true;
                 bandwidthMeter = new DefaultBandwidthMeter();
