@@ -4,10 +4,14 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.media.session.MediaSessionCompat;
+import android.support.v4.media.session.PlaybackStateCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+
 import com.baqoba.bakingapp.R;
 import com.google.android.exoplayer2.DefaultLoadControl;
 import com.google.android.exoplayer2.ExoPlayerFactory;
@@ -52,6 +56,13 @@ public class StepsFragment extends Fragment {
     private SimpleExoPlayer mExoPlayer;
     private SimpleExoPlayerView mPlayerView;
 
+    private SimpleExoPlayer exoPlayer;
+    private SimpleExoPlayerView playerView;
+    private static MediaSessionCompat mediaSession;
+    private PlaybackStateCompat.Builder stateBuilder;
+
+    TextView tvDescription;
+
     public StepsFragment() {
         // Required empty public constructor
     }
@@ -89,6 +100,7 @@ public class StepsFragment extends Fragment {
 
         rootView = inflater.inflate(R.layout.fragment_steps, container, false);
         mPlayerView = (SimpleExoPlayerView) rootView.findViewById(R.id.exo_player);
+        tvDescription = (TextView) rootView.findViewById(R.id.tv_description);
 
         Bundle bundle = this.getArguments();
         if(bundle != null){
@@ -102,13 +114,19 @@ public class StepsFragment extends Fragment {
                 if(!videoUrl.isEmpty()){
                     initializePlayer(Uri.parse(videoUrl));
                 }
+                else{
+                    mPlayerView.setVisibility(View.GONE);
+                }
+
+                tvDescription.setText(stepDescription);
 
 
             }catch(Exception e){
                 e.printStackTrace();
             }
-
-
+        }else{
+            mPlayerView.setVisibility(View.GONE);
+            tvDescription.setText("Ingredients");
         }
 
 
@@ -166,7 +184,7 @@ public class StepsFragment extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
-
+/*
     private void initializePlayer(Uri mediaUri) {
         if (mExoPlayer == null) {
             // Create an instance of the ExoPlayer.
@@ -184,4 +202,21 @@ public class StepsFragment extends Fragment {
             mExoPlayer.setPlayWhenReady(true);
         }
     }
+    */
+
+    private void initializePlayer(Uri mediaUri) {
+        if (exoPlayer == null) {
+            TrackSelector trackSelector = new DefaultTrackSelector();
+            LoadControl loadControl = new DefaultLoadControl();
+            exoPlayer = ExoPlayerFactory.newSimpleInstance(getContext(), trackSelector, loadControl);
+            playerView.setPlayer(exoPlayer);
+        //    exoPlayer.addListener(this);
+            String userAgent = Util.getUserAgent(getContext(), "StepsFragment");
+            MediaSource mediaSource = new ExtractorMediaSource(mediaUri, new DefaultDataSourceFactory(
+                    getContext(), userAgent), new DefaultExtractorsFactory(), null, null);
+            exoPlayer.prepare(mediaSource);
+      //      restExoPlayer(position, false);
+        }
+    }
+
 }

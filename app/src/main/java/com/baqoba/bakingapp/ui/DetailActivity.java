@@ -2,10 +2,12 @@ package com.baqoba.bakingapp.ui;
 
 import android.content.pm.ActivityInfo;
 import android.net.Uri;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 
 import com.baqoba.bakingapp.R;
 import com.baqoba.bakingapp.data.Step;

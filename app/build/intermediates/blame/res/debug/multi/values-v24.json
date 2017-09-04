@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+        "outputFile": "D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 207
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-v24/values-v24.xml",
+                    "file": "D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 342
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-v24/values-v24.xml",
+                    "file": "D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 411
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-v24/values-v24.xml",
+                    "file": "D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 475
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-v24/values-v24.xml",
+                    "file": "D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 544
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-v24/values-v24.xml",
+                    "file": "D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 614
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-v24/values-v24.xml",
+                    "file": "D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -119,7 +119,7 @@
         ]
     },
     {
-        "outputFile": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+        "outputFile": "D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
         "map": [
             {
                 "to": {
@@ -130,7 +130,7 @@
                     "endOffset": 207
                 },
                 "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -149,7 +149,7 @@
                     "endOffset": 342
                 },
                 "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -168,7 +168,7 @@
                     "endOffset": 411
                 },
                 "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -187,7 +187,7 @@
                     "endOffset": 475
                 },
                 "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -206,7 +206,7 @@
                     "endOffset": 544
                 },
                 "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -225,7 +225,126 @@
                     "endOffset": 614
                 },
                 "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 549,
+                        "endColumn": 69,
+                        "endOffset": 614
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 156,
+                    "endOffset": 207
+                },
+                "from": {
+                    "file": "D:\\home\\ulimhd\\.android\\build-cache\\708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 156,
+                        "endOffset": 207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 212,
+                    "endColumn": 134,
+                    "endOffset": 342
+                },
+                "from": {
+                    "file": "D:\\home\\ulimhd\\.android\\build-cache\\708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 212,
+                        "endColumn": 134,
+                        "endOffset": 342
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 347,
+                    "endColumn": 68,
+                    "endOffset": 411
+                },
+                "from": {
+                    "file": "D:\\home\\ulimhd\\.android\\build-cache\\708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 347,
+                        "endColumn": 68,
+                        "endOffset": 411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 416,
+                    "endColumn": 63,
+                    "endOffset": 475
+                },
+                "from": {
+                    "file": "D:\\home\\ulimhd\\.android\\build-cache\\708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 416,
+                        "endColumn": 63,
+                        "endOffset": 475
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 480,
+                    "endColumn": 68,
+                    "endOffset": 544
+                },
+                "from": {
+                    "file": "D:\\home\\ulimhd\\.android\\build-cache\\708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 480,
+                        "endColumn": 68,
+                        "endOffset": 544
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 549,
+                    "endColumn": 69,
+                    "endOffset": 614
+                },
+                "from": {
+                    "file": "D:\\home\\ulimhd\\.android\\build-cache\\708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

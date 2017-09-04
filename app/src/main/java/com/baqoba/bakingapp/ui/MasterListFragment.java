@@ -26,7 +26,7 @@ import com.baqoba.bakingapp.data.Step;
 
 import java.util.ArrayList;
 
-public class MasterListFragment extends Fragment implements StepAdapter.StepAdapterOnClickHandler{
+public class MasterListFragment extends Fragment implements StepAdapter.StepAdapterOnClickHandler, View.OnClickListener{
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -112,6 +112,17 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
                 .replace(R.id.detail_container, stepsFragment)
                 .commit();
 
+    }
+
+
+    @Override
+    public void onClick(View v) {
+        switch(v.getId()){
+            case R.id.tv_ingredient:
+                Toast.makeText(getActivity(), "Click Ingredient!", Toast.LENGTH_LONG).show();
+                break;
+
+        }
     }
 
 /*

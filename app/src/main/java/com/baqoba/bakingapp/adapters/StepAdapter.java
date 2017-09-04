@@ -24,7 +24,7 @@ import com.google.android.exoplayer2.source.MediaSource;
 import com.google.android.exoplayer2.trackselection.DefaultTrackSelector;
 import com.google.android.exoplayer2.trackselection.TrackSelection;
 import com.google.android.exoplayer2.trackselection.TrackSelector;
-import com.google.android.exoplayer2.trackselection.AdaptiveTrackSelection;
+//import com.google.android.exoplayer2.trackselection.AdaptiveTrackSelection;
 import com.google.android.exoplayer2.ui.SimpleExoPlayerView;
 import com.google.android.exoplayer2.upstream.BandwidthMeter;
 import com.google.android.exoplayer2.upstream.DataSource;
@@ -151,10 +151,10 @@ public class StepAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>  
 
                 myItemHolder.simpleExoPlayerView.setPlayer(player);
                 */
-
+/*
                 TrackSelector trackSelector = new DefaultTrackSelector();
                 LoadControl loadControl = new DefaultLoadControl();
-                player = ExoPlayerFactory.newSimpleInstance(mContext, trackSelector);
+                player = ExoPlayerFactory.newSimpleInstance(getContext(), trackSelector, loadControl);
                 myItemHolder.simpleExoPlayerView.setPlayer(player);
                 // Prepare the MediaSource.
                 String userAgent = Util.getUserAgent(mContext, "ClassicalMusicQuiz");
@@ -162,7 +162,7 @@ public class StepAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>  
                         mContext, userAgent), new DefaultExtractorsFactory(), null, null);
                 player.prepare(mediaSource);
                 player.setPlayWhenReady(true);
-
+*/
                 Log.d("holder.get1", String.valueOf(holder.getItemViewType()));
                 break;
             default:

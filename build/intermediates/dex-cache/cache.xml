@@ -3,57 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/home/ulimhd/.android/build-cache/933110a625a547cfd262915153a707aa9bbfabe0/output/jars/classes.jar"
+        jar="C:\Users\Admin\.android\build-cache\581a46490c536c7b387812a677d78bbb99148c2e\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="bc987989a5b6a23cc00d436f97cbf82e644c739d">
-        <dex dex="/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/pre-dexed/debug/classes_44fe9ff59e1c54144c58d6ecc6f8a36758c874e5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ulimhd/.android/build-cache/9ad6c29d631de8ffb7fcb72f4a786691f120a8eb/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="cfc67519fb914bc50f2434bad36ed2001412777a">
-        <dex dex="/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/pre-dexed/debug/classes_9156c6346d12314801d0e1f5eadc1fa10f0b8100.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ulimhd/.android/build-cache/912e346434ae3652aced224e5bb852a93029a03c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="52f4541e66a53c22179655d7e9c6fccf12cba86a">
-        <dex dex="/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/pre-dexed/debug/classes_857a350acb7b3e07496fd0a4794bffaa518fe023.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ulimhd/.android/build-cache/ecb9424f230cc3433dd6b5cea24a622edf0e1cb0/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="1a22d14a4ee12a1fc2e765eb280d94ea73efa630">
-        <dex dex="/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/pre-dexed/debug/classes_a282e31b8dce0a606544d1192d95e9f976326965.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ulimhd/.android/build-cache/c3dd85fc869b04760844e974a54bba1f1a66f406/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="3ecb9d2aad9a03dd8d0914b715cc1fc11d942c6c">
-        <dex dex="/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/pre-dexed/debug/classes_300809e108e629fbe294812d7f83c29625518946.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ulimhd/.android/build-cache/67f25ede884247ae48d5b973131739cd196fe078/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="31abcff1d93243e1d25afda575266ca6219fadd1">
-        <dex dex="/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/pre-dexed/debug/classes_2582fcf14b93a5621f9ebd59bb575f4144d99d50.jar" />
+        sha1="31ead391552fc8d93a7b87b0f15e83755b908904">
+        <dex dex="D:\Misc\AndroidStudioProjects\BakingApp\baking-app\app\build\intermediates\pre-dexed\debug\classes_f0f449d03b168547d8e017f351e4a7f3ba34da8b.jar" />
     </item>
 
 </items>
