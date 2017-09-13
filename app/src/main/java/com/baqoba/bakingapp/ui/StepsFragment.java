@@ -4,13 +4,16 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.media.session.MediaSessionCompat;
 import android.support.v4.media.session.PlaybackStateCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.baqoba.bakingapp.R;
 import com.google.android.exoplayer2.DefaultLoadControl;
@@ -27,6 +30,7 @@ import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
 import com.google.android.exoplayer2.util.Util;
 
 import static com.baqoba.bakingapp.ui.MasterListFragment.step;
+import static com.baqoba.bakingapp.ui.MasterListFragment.totalStep;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -36,7 +40,7 @@ import static com.baqoba.bakingapp.ui.MasterListFragment.step;
  * Use the {@link StepsFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class StepsFragment extends Fragment {
+public class StepsFragment extends Fragment{
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -61,7 +65,10 @@ public class StepsFragment extends Fragment {
     private static MediaSessionCompat mediaSession;
     private PlaybackStateCompat.Builder stateBuilder;
 
+    public static Bundle bundleSet = new Bundle();
+
     TextView tvDescription;
+    Button btnNext, btnPrevious;
 
     public StepsFragment() {
         // Required empty public constructor
@@ -101,6 +108,8 @@ public class StepsFragment extends Fragment {
         rootView = inflater.inflate(R.layout.fragment_steps, container, false);
         mPlayerView = (SimpleExoPlayerView) rootView.findViewById(R.id.exo_player);
         tvDescription = (TextView) rootView.findViewById(R.id.tv_description);
+        btnNext = (Button) rootView.findViewById(R.id.btn_next_step);
+        btnPrevious = (Button) rootView.findViewById(R.id.btn_prev_step);
 
         Bundle bundle = this.getArguments();
         if(bundle != null){
@@ -110,6 +119,9 @@ public class StepsFragment extends Fragment {
                 stepDescription = step.get(index).getDescription();
                 Log.d("videUrl", videoUrl);
                 Log.d("stepdesc", stepDescription);
+                Log.d("total_step", String.valueOf(totalStep));
+                tvDescription.setText(stepDescription);
+                Log.d("stedesc1", tvDescription.getText().toString());
 
                 if(!videoUrl.isEmpty()){
                     initializePlayer(Uri.parse(videoUrl));
@@ -118,7 +130,8 @@ public class StepsFragment extends Fragment {
                     mPlayerView.setVisibility(View.GONE);
                 }
 
-                tvDescription.setText(stepDescription);
+
+
 
 
             }catch(Exception e){
@@ -130,12 +143,54 @@ public class StepsFragment extends Fragment {
         }
 
 
+        int prevVal = index-1;
 
-        // Initialize the player view.
+        btnNext.setOnClickListener(new View.OnClickListener(){
+            int nextVal = index+1;
 
+            @Override
+            public void onClick(View v) {
+                if(nextVal<=totalStep-1) {
+                    Toast.makeText(getActivity(), "Click Next!", Toast.LENGTH_LONG).show();
+                    bundleSet.putInt("item_index", nextVal);
 
-        // Initialize the player.
+                    FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                    StepsFragment stepsFragment = new StepsFragment();
+                    stepsFragment.setArguments(bundleSet);
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.detail_container, stepsFragment)
+                            .commit();
+                }
 
+            }
+        });
+
+        btnPrevious.setOnClickListener(new View.OnClickListener(){
+            int prevVal = index-1;
+
+            @Override
+            public void onClick(View v) {
+
+                if(prevVal>=0) {
+                    Toast.makeText(getActivity(), "Click Next!", Toast.LENGTH_LONG).show();
+                    bundleSet.putInt("item_index", prevVal);
+
+                    FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                    StepsFragment stepsFragment = new StepsFragment();
+                    stepsFragment.setArguments(bundleSet);
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.detail_container, stepsFragment)
+                            .commit();
+                }else{
+                    FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                    IngredientFragment ingredientFragment = new IngredientFragment();
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.detail_container, ingredientFragment)
+                            .commit();
+                }
+
+            }
+        });
 
 
         // Inflate the layout for this fragment
@@ -152,6 +207,8 @@ public class StepsFragment extends Fragment {
             mListener.onFragmentInteraction(uri);
         }
     }
+
+
 
   /*  @Override
     public void onAttach(Context context) {

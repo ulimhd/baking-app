@@ -1,71 +1,55 @@
 [
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_pause.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\drawable-anydpi-v21\\exo_controls_pause.xml"
-    },
-    {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_fastforward.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\drawable-anydpi-v21\\exo_controls_fastforward.xml"
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_pause.xml",
+        "source": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/drawable-anydpi-v21/exo_controls_pause.xml"
     },
     {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_play.xml",
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\9ad6c29d631de8ffb7fcb72f4a786691f120a8eb\\output\\res\\drawable-anydpi-v21\\exo_controls_play.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_previous.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\9ad6c29d631de8ffb7fcb72f4a786691f120a8eb\\output\\res\\drawable-anydpi-v21\\exo_controls_previous.xml"
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_rewind.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\9ad6c29d631de8ffb7fcb72f4a786691f120a8eb\\output\\res\\drawable-anydpi-v21\\exo_controls_rewind.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_pause.xml",
-        "source": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/drawable-anydpi-v21/exo_controls_pause.xml"
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_pause.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\drawable-anydpi-v21\\exo_controls_pause.xml"
+    },
+    {
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_next.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\9ad6c29d631de8ffb7fcb72f4a786691f120a8eb\\output\\res\\drawable-anydpi-v21\\exo_controls_next.xml"
     },
     {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_play.xml",
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\drawable-anydpi-v21\\exo_controls_play.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_previous.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\drawable-anydpi-v21\\exo_controls_previous.xml"
-    },
-    {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_rewind.xml",
         "source": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/drawable-anydpi-v21/exo_controls_rewind.xml"
-    },
-    {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_fastforward.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\9ad6c29d631de8ffb7fcb72f4a786691f120a8eb\\output\\res\\drawable-anydpi-v21\\exo_controls_fastforward.xml"
     },
     {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_previous.xml",
         "source": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/drawable-anydpi-v21/exo_controls_previous.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_pause.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\9ad6c29d631de8ffb7fcb72f4a786691f120a8eb\\output\\res\\drawable-anydpi-v21\\exo_controls_pause.xml"
-    },
-    {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_fastforward.xml",
         "source": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/drawable-anydpi-v21/exo_controls_fastforward.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_rewind.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\9ad6c29d631de8ffb7fcb72f4a786691f120a8eb\\output\\res\\drawable-anydpi-v21\\exo_controls_rewind.xml"
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_fastforward.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\drawable-anydpi-v21\\exo_controls_fastforward.xml"
     },
     {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_rewind.xml",
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\drawable-anydpi-v21\\exo_controls_rewind.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_edit_mode_logo.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\9ad6c29d631de8ffb7fcb72f4a786691f120a8eb\\output\\res\\drawable-anydpi-v21\\exo_edit_mode_logo.xml"
-    },
-    {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_next.xml",
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\drawable-anydpi-v21\\exo_controls_next.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_edit_mode_logo.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\94d7d665f21a8338d283b323072390df5d85edeb\\output\\res\\drawable-anydpi-v21\\exo_edit_mode_logo.xml"
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_fastforward.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\9ad6c29d631de8ffb7fcb72f4a786691f120a8eb\\output\\res\\drawable-anydpi-v21\\exo_controls_fastforward.xml"
     },
     {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_next.xml",
@@ -76,7 +60,23 @@
         "source": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/drawable-anydpi-v21/exo_controls_play.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_next.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\9ad6c29d631de8ffb7fcb72f4a786691f120a8eb\\output\\res\\drawable-anydpi-v21\\exo_controls_next.xml"
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_edit_mode_logo.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\94d7d665f21a8338d283b323072390df5d85edeb\\output\\res\\drawable-anydpi-v21\\exo_edit_mode_logo.xml"
+    },
+    {
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_previous.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\drawable-anydpi-v21\\exo_controls_previous.xml"
+    },
+    {
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_previous.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\9ad6c29d631de8ffb7fcb72f4a786691f120a8eb\\output\\res\\drawable-anydpi-v21\\exo_controls_previous.xml"
+    },
+    {
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_controls_pause.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\9ad6c29d631de8ffb7fcb72f4a786691f120a8eb\\output\\res\\drawable-anydpi-v21\\exo_controls_pause.xml"
+    },
+    {
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exo_edit_mode_logo.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\9ad6c29d631de8ffb7fcb72f4a786691f120a8eb\\output\\res\\drawable-anydpi-v21\\exo_edit_mode_logo.xml"
     }
 ]

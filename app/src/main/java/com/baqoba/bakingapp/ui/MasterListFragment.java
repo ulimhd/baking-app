@@ -1,6 +1,7 @@
 package com.baqoba.bakingapp.ui;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -50,32 +51,13 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
     private StepAdapter stepAdapter;
 
     LinearLayoutManager layoutManagerStep;
+    public static int totalStep;
 
     public MasterListFragment() {
         // Required empty public constructor
     }
 
 
-    // TODO: Rename and change types and number of parameters
-/*    public static MasterListFragment newInstance(String param1, String param2) {
-        MasterListFragment fragment = new MasterListFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-*/
-/*
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
-*/
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         rootView = inflater.inflate(R.layout.fragment_master_list, container, false);
@@ -98,20 +80,25 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
         stepRecyclerView.setLayoutManager(layoutManagerStep);
         Log.d("getCount", String.valueOf(stepAdapter.getItemCount()));
         stepRecyclerView.setAdapter(stepAdapter);
- //       Log.d("recipe_serving", recipes.get(index).getServings());
-        // Inflate the layout for this fragment
+        
+        totalStep = stepAdapter.getItemCount();
 
         tvIngredients.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(), "Click Ingredient!", Toast.LENGTH_LONG).show();
+                if(mTwoPane) {
+                    Toast.makeText(getActivity(), "Click Ingredient!", Toast.LENGTH_LONG).show();
 
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                IngredientFragment ingredientFragment = new IngredientFragment();
-             //   stepsFragment.setArguments(bundle);
-                fragmentManager.beginTransaction()
-                        .replace(R.id.detail_container, ingredientFragment)
-                        .commit();
+                    FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                    IngredientFragment ingredientFragment = new IngredientFragment();
+                    //   stepsFragment.setArguments(bundle);
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.detail_container, ingredientFragment)
+                            .commit();
+                }else{
+                    Intent intent =new Intent(getActivity(),IngredientActivity.class);
+                    startActivity(intent);
+                }
             }
         });
         return rootView;
@@ -119,17 +106,24 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
 
     @Override
     public void onClick(int clickedItemIndex) {
-    //    Toast.makeText(getActivity(), step.get(index).getShortDescription(), Toast.LENGTH_LONG).show();
-        Toast.makeText(getActivity(), getActivity().toString(), Toast.LENGTH_LONG).show();
-        bundle.putInt("item_index", clickedItemIndex);
+        if(mTwoPane) {
+            //    Toast.makeText(getActivity(), step.get(index).getShortDescription(), Toast.LENGTH_LONG).show();
+            Toast.makeText(getActivity(), getActivity().toString(), Toast.LENGTH_LONG).show();
 
-        FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-        StepsFragment stepsFragment = new StepsFragment();
-        stepsFragment.setArguments(bundle);
-        fragmentManager.beginTransaction()
-                .replace(R.id.detail_container, stepsFragment)
-                .commit();
 
+            bundle.putInt("item_index", clickedItemIndex);
+
+            FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+            StepsFragment stepsFragment = new StepsFragment();
+            stepsFragment.setArguments(bundle);
+            fragmentManager.beginTransaction()
+                    .replace(R.id.detail_container, stepsFragment)
+                    .commit();
+        }else{
+            Intent intent =new Intent(getActivity(),IngredientActivity.class);
+            intent.putExtra("item_index",clickedItemIndex);
+            startActivity(intent);
+        }
 
     }
 

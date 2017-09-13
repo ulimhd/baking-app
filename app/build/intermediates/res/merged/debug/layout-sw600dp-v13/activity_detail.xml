@@ -10,8 +10,9 @@
     <fragment
         android:id="@+id/master_list_fragment"
         android:name="com.baqoba.bakingapp.ui.MasterListFragment"
-        android:layout_width="400dp"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
+        android:layout_weight="1"
         android:scaleType="centerInside"/>
 
     <!-- A small divider -->
@@ -24,8 +25,9 @@
     <!-- LinearLayout that arranges all three Android-Me body part images vertically -->
     <LinearLayout
         android:id="@+id/android_me_linear_layout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
         android:layout_gravity="center_vertical"
         android:background="@android:color/white"
         android:orientation="vertical"

@@ -8,6 +8,10 @@
         "source": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/drawable-v21/notification_action_background.xml"
     },
     {
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
         "source": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/drawable-v21/abc_edit_text_material.xml"
     },
@@ -16,51 +20,47 @@
         "source": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\drawable-v21\\notification_action_background.xml"
-    },
-    {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8\\output\\res\\drawable-v21\\notification_action_background.xml"
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     }
 ]

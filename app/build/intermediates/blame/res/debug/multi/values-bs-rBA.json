@@ -1,542 +1,5 @@
 [
     {
-        "outputFile": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs-rBA\\values-bs-rBA.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 118,
-                    "endOffset": 169
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 118,
-                        "endOffset": 169
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 174,
-                    "endColumn": 107,
-                    "endOffset": 277
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 174,
-                        "endColumn": 107,
-                        "endOffset": 277
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 282,
-                    "endColumn": 122,
-                    "endOffset": 400
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 282,
-                        "endColumn": 122,
-                        "endOffset": 400
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 405,
-                    "endColumn": 108,
-                    "endOffset": 509
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 405,
-                        "endColumn": 108,
-                        "endOffset": 509
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 514,
-                    "endColumn": 106,
-                    "endOffset": 616
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 514,
-                        "endColumn": 106,
-                        "endOffset": 616
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 621,
-                    "endColumn": 87,
-                    "endOffset": 704
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 621,
-                        "endColumn": 87,
-                        "endOffset": 704
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 709,
-                    "endColumn": 100,
-                    "endOffset": 805
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 709,
-                        "endColumn": 100,
-                        "endOffset": 805
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 810,
-                    "endColumn": 121,
-                    "endOffset": 927
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 810,
-                        "endColumn": 121,
-                        "endOffset": 927
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 932,
-                    "endColumn": 81,
-                    "endOffset": 1009
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 932,
-                        "endColumn": 81,
-                        "endOffset": 1009
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 1014,
-                    "endColumn": 80,
-                    "endOffset": 1090
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1014,
-                        "endColumn": 80,
-                        "endOffset": 1090
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1095,
-                    "endColumn": 85,
-                    "endOffset": 1176
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1095,
-                        "endColumn": 85,
-                        "endOffset": 1176
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1181,
-                    "endColumn": 102,
-                    "endOffset": 1279
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1181,
-                        "endColumn": 102,
-                        "endOffset": 1279
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1284,
-                    "endColumn": 104,
-                    "endOffset": 1384
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1284,
-                        "endColumn": 104,
-                        "endOffset": 1384
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1389,
-                    "endColumn": 97,
-                    "endOffset": 1482
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1389,
-                        "endColumn": 97,
-                        "endOffset": 1482
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1487,
-                    "endColumn": 104,
-                    "endOffset": 1587
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1487,
-                        "endColumn": 104,
-                        "endOffset": 1587
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1592,
-                    "endColumn": 110,
-                    "endOffset": 1698
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1592,
-                        "endColumn": 110,
-                        "endOffset": 1698
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1703,
-                    "endColumn": 104,
-                    "endOffset": 1803
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1703,
-                        "endColumn": 104,
-                        "endOffset": 1803
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1808,
-                    "endColumn": 119,
-                    "endOffset": 1923
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1808,
-                        "endColumn": 119,
-                        "endOffset": 1923
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1928,
-                    "endColumn": 96,
-                    "endOffset": 2020
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1928,
-                        "endColumn": 96,
-                        "endOffset": 2020
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 2025,
-                    "endColumn": 73,
-                    "endOffset": 2094
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 73,
-                        "endOffset": 124
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 2099,
-                    "endColumn": 75,
-                    "endOffset": 2170
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 129,
-                        "endColumn": 75,
-                        "endOffset": 200
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 23,
-                    "startColumn": 4,
-                    "startOffset": 2175,
-                    "endColumn": 69,
-                    "endOffset": 2240
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 205,
-                        "endColumn": 69,
-                        "endOffset": 270
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 24,
-                    "startColumn": 4,
-                    "startOffset": 2245,
-                    "endColumn": 72,
-                    "endOffset": 2313
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 275,
-                        "endColumn": 72,
-                        "endOffset": 343
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 25,
-                    "startColumn": 4,
-                    "startOffset": 2318,
-                    "endColumn": 80,
-                    "endOffset": 2394
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 348,
-                        "endColumn": 80,
-                        "endOffset": 424
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 26,
-                    "startColumn": 4,
-                    "startOffset": 2399,
-                    "endColumn": 70,
-                    "endOffset": 2465
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 429,
-                        "endColumn": 70,
-                        "endOffset": 495
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 27,
-                    "startColumn": 4,
-                    "startOffset": 2470,
-                    "endColumn": 68,
-                    "endOffset": 2534
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 500,
-                        "endColumn": 68,
-                        "endOffset": 564
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 28,
-                    "startColumn": 4,
-                    "startOffset": 2539,
-                    "endColumn": 83,
-                    "endOffset": 2618
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2025,
-                        "endColumn": 83,
-                        "endOffset": 2104
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 29,
-                    "startColumn": 4,
-                    "startOffset": 2623,
-                    "endColumn": 100,
-                    "endOffset": 2719
-                },
-                "from": {
-                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2109,
-                        "endColumn": 100,
-                        "endOffset": 2205
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs-rBA\\values-bs-rBA.xml",
         "map": [
             {
@@ -929,6 +392,543 @@
                 },
                 "from": {
                     "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2109,
+                        "endColumn": 100,
+                        "endOffset": 2205
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs-rBA/values-bs-rBA.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 118,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 118,
+                        "endOffset": 169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 174,
+                    "endColumn": 107,
+                    "endOffset": 277
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 174,
+                        "endColumn": 107,
+                        "endOffset": 277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 282,
+                    "endColumn": 122,
+                    "endOffset": 400
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 122,
+                        "endOffset": 400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 405,
+                    "endColumn": 108,
+                    "endOffset": 509
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endColumn": 108,
+                        "endOffset": 509
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 514,
+                    "endColumn": 106,
+                    "endOffset": 616
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 514,
+                        "endColumn": 106,
+                        "endOffset": 616
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 621,
+                    "endColumn": 87,
+                    "endOffset": 704
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 621,
+                        "endColumn": 87,
+                        "endOffset": 704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 709,
+                    "endColumn": 100,
+                    "endOffset": 805
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 709,
+                        "endColumn": 100,
+                        "endOffset": 805
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 810,
+                    "endColumn": 121,
+                    "endOffset": 927
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 810,
+                        "endColumn": 121,
+                        "endOffset": 927
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 932,
+                    "endColumn": 81,
+                    "endOffset": 1009
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 932,
+                        "endColumn": 81,
+                        "endOffset": 1009
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1014,
+                    "endColumn": 80,
+                    "endOffset": 1090
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1014,
+                        "endColumn": 80,
+                        "endOffset": 1090
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1095,
+                    "endColumn": 85,
+                    "endOffset": 1176
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1095,
+                        "endColumn": 85,
+                        "endOffset": 1176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1181,
+                    "endColumn": 102,
+                    "endOffset": 1279
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1181,
+                        "endColumn": 102,
+                        "endOffset": 1279
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1284,
+                    "endColumn": 104,
+                    "endOffset": 1384
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1284,
+                        "endColumn": 104,
+                        "endOffset": 1384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1389,
+                    "endColumn": 97,
+                    "endOffset": 1482
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1389,
+                        "endColumn": 97,
+                        "endOffset": 1482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1487,
+                    "endColumn": 104,
+                    "endOffset": 1587
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1487,
+                        "endColumn": 104,
+                        "endOffset": 1587
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1592,
+                    "endColumn": 110,
+                    "endOffset": 1698
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1592,
+                        "endColumn": 110,
+                        "endOffset": 1698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1703,
+                    "endColumn": 104,
+                    "endOffset": 1803
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1703,
+                        "endColumn": 104,
+                        "endOffset": 1803
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1808,
+                    "endColumn": 119,
+                    "endOffset": 1923
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1808,
+                        "endColumn": 119,
+                        "endOffset": 1923
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1928,
+                    "endColumn": 96,
+                    "endOffset": 2020
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1928,
+                        "endColumn": 96,
+                        "endOffset": 2020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2025,
+                    "endColumn": 73,
+                    "endOffset": 2094
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 73,
+                        "endOffset": 124
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2099,
+                    "endColumn": 75,
+                    "endOffset": 2170
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 129,
+                        "endColumn": 75,
+                        "endOffset": 200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2175,
+                    "endColumn": 69,
+                    "endOffset": 2240
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 205,
+                        "endColumn": 69,
+                        "endOffset": 270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2245,
+                    "endColumn": 72,
+                    "endOffset": 2313
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 275,
+                        "endColumn": 72,
+                        "endOffset": 343
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2318,
+                    "endColumn": 80,
+                    "endOffset": 2394
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 348,
+                        "endColumn": 80,
+                        "endOffset": 424
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2399,
+                    "endColumn": 70,
+                    "endOffset": 2465
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 429,
+                        "endColumn": 70,
+                        "endOffset": 495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2470,
+                    "endColumn": 68,
+                    "endOffset": 2534
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 500,
+                        "endColumn": 68,
+                        "endOffset": 564
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2539,
+                    "endColumn": 83,
+                    "endOffset": 2618
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2025,
+                        "endColumn": 83,
+                        "endOffset": 2104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2623,
+                    "endColumn": 100,
+                    "endOffset": 2719
+                },
+                "from": {
+                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1478,7 +1478,7 @@
         ]
     },
     {
-        "outputFile": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs-rBA/values-bs-rBA.xml",
+        "outputFile": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs-rBA\\values-bs-rBA.xml",
         "map": [
             {
                 "to": {
@@ -1489,7 +1489,7 @@
                     "endOffset": 169
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1508,7 +1508,7 @@
                     "endOffset": 277
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1527,7 +1527,7 @@
                     "endOffset": 400
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1546,7 +1546,7 @@
                     "endOffset": 509
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1565,7 +1565,7 @@
                     "endOffset": 616
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1584,7 +1584,7 @@
                     "endOffset": 704
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1603,7 +1603,7 @@
                     "endOffset": 805
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1622,7 +1622,7 @@
                     "endOffset": 927
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1641,7 +1641,7 @@
                     "endOffset": 1009
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1660,7 +1660,7 @@
                     "endOffset": 1090
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1679,7 +1679,7 @@
                     "endOffset": 1176
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1698,7 +1698,7 @@
                     "endOffset": 1279
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1717,7 +1717,7 @@
                     "endOffset": 1384
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1736,7 +1736,7 @@
                     "endOffset": 1482
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1755,7 +1755,7 @@
                     "endOffset": 1587
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1774,7 +1774,7 @@
                     "endOffset": 1698
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1793,7 +1793,7 @@
                     "endOffset": 1803
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1812,7 +1812,7 @@
                     "endOffset": 1923
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1831,7 +1831,7 @@
                     "endOffset": 2020
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1850,7 +1850,7 @@
                     "endOffset": 2094
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1869,7 +1869,7 @@
                     "endOffset": 2170
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1888,7 +1888,7 @@
                     "endOffset": 2240
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1907,7 +1907,7 @@
                     "endOffset": 2313
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1926,7 +1926,7 @@
                     "endOffset": 2394
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1945,7 +1945,7 @@
                     "endOffset": 2465
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1964,7 +1964,7 @@
                     "endOffset": 2534
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/3cc52c5e150d876aa4efe4f21703f5ca338100ae/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\581a46490c536c7b387812a677d78bbb99148c2e\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1983,7 +1983,7 @@
                     "endOffset": 2618
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -2002,7 +2002,7 @@
                     "endOffset": 2719
                 },
                 "from": {
-                    "file": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "file": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

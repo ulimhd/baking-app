@@ -700,6 +700,10 @@
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/res/merged/debug/layout/activity_ingredient.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/res/layout/activity_ingredient.xml"
+    },
+    {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\layout\\abc_action_menu_layout.xml"
     },

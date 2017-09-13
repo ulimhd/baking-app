@@ -56,8 +56,8 @@ public final class R {
         public static final int texture_view = 0x7f0b0026;
     }
     public static final class layout {
-        public static final int exo_playback_control_view = 0x7f04001d;
-        public static final int exo_simple_player_view = 0x7f04001e;
+        public static final int exo_playback_control_view = 0x7f04001e;
+        public static final int exo_simple_player_view = 0x7f04001f;
     }
     public static final class string {
         public static final int exo_controls_fastforward_description = 0x7f060013;
