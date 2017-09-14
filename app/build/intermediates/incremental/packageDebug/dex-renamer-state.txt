@@ -1,4 +1,7 @@
-#Thu Sep 14 00:22:44 WIB 2017
-base.0=/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Thu Sep 14 21:44:41 WIB 2017
+base.0=/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_bfa832380a08a38178adf275dc6f55ee339f54e2
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.1=/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ffe1158530f8155ac92d8c1a82392509f8f4ecbe/classes.dex
+base.1=/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ffe1158530f8155ac92d8c1a82392509f8f4ecbe
+file.0=/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_bfa832380a08a38178adf275dc6f55ee339f54e2/classes.dex

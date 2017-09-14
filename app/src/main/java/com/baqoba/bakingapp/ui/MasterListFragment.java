@@ -80,7 +80,7 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
         stepRecyclerView.setLayoutManager(layoutManagerStep);
         Log.d("getCount", String.valueOf(stepAdapter.getItemCount()));
         stepRecyclerView.setAdapter(stepAdapter);
-        
+
         totalStep = stepAdapter.getItemCount();
 
         tvIngredients.setOnClickListener(new View.OnClickListener(){
@@ -88,6 +88,7 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
             public void onClick(View v) {
                 if(mTwoPane) {
                     Toast.makeText(getActivity(), "Click Ingredient!", Toast.LENGTH_LONG).show();
+                    bundle.putString("source", "tvIngredients");
 
                     FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                     IngredientFragment ingredientFragment = new IngredientFragment();
@@ -97,6 +98,8 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
                             .commit();
                 }else{
                     Intent intent =new Intent(getActivity(),IngredientActivity.class);
+                    bundle.putString("source", "tvIngredients");
+                    intent.putExtras(bundle);
                     startActivity(intent);
                 }
             }
@@ -110,7 +113,7 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
             //    Toast.makeText(getActivity(), step.get(index).getShortDescription(), Toast.LENGTH_LONG).show();
             Toast.makeText(getActivity(), getActivity().toString(), Toast.LENGTH_LONG).show();
 
-
+            bundle.putString("source", "recyclerView");
             bundle.putInt("item_index", clickedItemIndex);
 
             FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
@@ -121,7 +124,9 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
                     .commit();
         }else{
             Intent intent =new Intent(getActivity(),IngredientActivity.class);
-            intent.putExtra("item_index",clickedItemIndex);
+            bundle.putInt("item_index",clickedItemIndex);
+            bundle.putString("source", "recyclerView");
+            intent.putExtras(bundle);
             startActivity(intent);
         }
 
