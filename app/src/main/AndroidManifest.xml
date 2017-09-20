@@ -19,7 +19,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.DetailActivity" />
-        <activity android:name=".ui.IngredientActivity"></activity>
+        <activity android:name=".ui.IngredientActivity"/>
+
+        <receiver android:name="android.support.v4.media.session.MediaButtonReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
     </application>
+
+
 
 </manifest>

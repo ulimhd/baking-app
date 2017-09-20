@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/AndroidManifest.xml:2:1-25:12
+ADDED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/AndroidManifest.xml:3:5-35
 		INJECTED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app
 	android:name
 		ADDED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/AndroidManifest.xml:7:5-23:19
+ADDED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/AndroidManifest.xml:7:5-29:19
 MERGED from [com.android.support:cardview-v7:25.3.1] /home/ulimhd/.android/build-cache/83e235fb768061af3d1b748bbb42b633651fa467/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ulimhd/.android/build-cache/14ba7bd00a4fb02bd4a8d26d73c79636d5a331d4/output/AndroidManifest.xml:26:5-20
@@ -61,9 +61,19 @@ ADDED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app
 	android:name
 		ADDED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/AndroidManifest.xml:21:19-52
 activity#com.baqoba.bakingapp.ui.IngredientActivity
-ADDED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/AndroidManifest.xml:22:9-68
+ADDED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/AndroidManifest.xml:22:9-58
 	android:name
 		ADDED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/AndroidManifest.xml:22:19-56
+receiver#android.support.v4.media.session.MediaButtonReceiver
+ADDED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/AndroidManifest.xml:24:9-28:20
+	android:name
+		ADDED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/AndroidManifest.xml:24:19-86
+intent-filter#android.intent.action.MEDIA_BUTTON
+ADDED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/AndroidManifest.xml:25:13-27:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/AndroidManifest.xml:26:25-74
 uses-sdk
 INJECTED from /media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:cardview-v7:25.3.1] /home/ulimhd/.android/build-cache/83e235fb768061af3d1b748bbb42b633651fa467/output/AndroidManifest.xml:20:5-43
