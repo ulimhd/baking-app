@@ -19,15 +19,22 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.DetailActivity" />
-        <activity android:name=".ui.IngredientActivity"/>
+        <activity android:name=".ui.IngredientActivity" />
 
-        <receiver android:name="android.support.v4.media.session.MediaButtonReceiver" >
+        <receiver android:name="android.support.v4.media.session.MediaButtonReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
             </intent-filter>
         </receiver>
+        <receiver android:name=".ui.BakingWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/baking_widget_info" />
+        </receiver>
     </application>
-
-
 
 </manifest>
