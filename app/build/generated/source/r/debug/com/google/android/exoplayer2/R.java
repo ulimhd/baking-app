@@ -20,8 +20,8 @@ public final class R {
         public static final int use_controller = 0x7f010100;
     }
     public static final class dimen {
-        public static final int exo_media_button_height = 0x7f080056;
-        public static final int exo_media_button_width = 0x7f080057;
+        public static final int exo_media_button_height = 0x7f080057;
+        public static final int exo_media_button_width = 0x7f080058;
     }
     public static final class drawable {
         public static final int exo_controls_fastforward = 0x7f020054;
@@ -56,8 +56,8 @@ public final class R {
         public static final int texture_view = 0x7f0c0026;
     }
     public static final class layout {
-        public static final int exo_playback_control_view = 0x7f04001f;
-        public static final int exo_simple_player_view = 0x7f040020;
+        public static final int exo_playback_control_view = 0x7f040020;
+        public static final int exo_simple_player_view = 0x7f040021;
     }
     public static final class string {
         public static final int exo_controls_fastforward_description = 0x7f070013;
