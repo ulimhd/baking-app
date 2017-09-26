@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.baqoba.bakingapp.R;
 import com.baqoba.bakingapp.data.Recipe;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -79,8 +80,28 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         Recipe result = recipeResults.get(position);
         final MyItemHolder myItemHolder = (MyItemHolder) holder;
-        myItemHolder.tvRecipeName.setText(result.getName());
 
+        int recipeImage;
+        String recipeName= result.getName();
+
+        myItemHolder.tvRecipeName.setText(recipeName);
+
+        switch(recipeName){
+            case "Nutella Pie":
+                Picasso.with(mContext).load(R.drawable.nutella_pie).into(myItemHolder.ivRecipeImage);
+                break;
+            case "Brownies":
+                Picasso.with(mContext).load(R.drawable.brownies).into(myItemHolder.ivRecipeImage);
+                break;
+            case "Yellow Cake":
+                Picasso.with(mContext).load(R.drawable.yellow_cake).into(myItemHolder.ivRecipeImage);
+                break;
+            case "Cheesecake":
+                Picasso.with(mContext).load(R.drawable.cheesecake).into(myItemHolder.ivRecipeImage);
+                break;
+            default:
+                break;
+        }
 
     }
 

@@ -67,10 +67,11 @@ public class WidgetViews implements RemoteViewsService.RemoteViewsFactory {
     @Override
     public RemoteViews getViewAt(int position) {
         RemoteViews rv = new RemoteViews(mContext.getPackageName(), R.layout.baking_list_widget);
-        try {
+/*        try {
             rv.setImageViewBitmap(R.id.icon, BitmapFactory.decodeStream(new URL(recipes.get(position).getImage()).openConnection().getInputStream()));
         } catch (IOException e) {
         }
+  */      Log.d("recName:", "fjads;fa");
         rv.setTextViewText(R.id.name, recipes.get(position).getName());
         rv.setTextViewText(R.id.servings, mContext.getString(R.string.servings) + " " + recipes.get(position).getServings());
         for (int i=0;i<recipes.get(position).getIngredient().size();i++){
