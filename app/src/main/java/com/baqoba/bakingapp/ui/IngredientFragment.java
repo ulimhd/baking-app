@@ -86,16 +86,14 @@ public class IngredientFragment extends Fragment implements View.OnClickListener
         layoutManager = new LinearLayoutManager(getActivity());
 
         ingredientAdapter = new IngredientAdapter(ingredient);
-        Log.d("stepAdapter", String.valueOf(ingredientAdapter));
 
         ingredientRecyclerView.setLayoutManager(layoutManager);
-        Log.d("getCount", String.valueOf(ingredientAdapter.getItemCount()));
+
         ingredientRecyclerView.setAdapter(ingredientAdapter);
 
         btnNext.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(), "Click Next!", Toast.LENGTH_LONG).show();
                 bundle.putInt("item_index", 0);
 
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();

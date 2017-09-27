@@ -1,51 +1,34 @@
 package com.baqoba.bakingapp.ui;
 
-import android.app.Activity;
 import android.app.ProgressDialog;
-import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.DisplayMetrics;
-import android.util.Log;
-import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.baqoba.bakingapp.R;
 import com.baqoba.bakingapp.adapters.RecipeListAdapter;
 import com.baqoba.bakingapp.data.Recipe;
-import com.baqoba.bakingapp.utils.RecipeApi;
-import com.baqoba.bakingapp.utils.RecipeService;
 
 import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.List;
 
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-
-public class MainActivity extends AppCompatActivity implements RecipeListAdapter.RecipeListAdapterOnClickHandler{
+public class MainActivity extends AppCompatActivity implements RecipeListAdapter.RecipeListAdapterOnClickHandler {
 
     private RecyclerView rvRecipes;
     private ProgressBar pbLoading;
-    private RecipeService recipeService;
     ProgressDialog pdLoading;
 
     RecipeListAdapter mAdapter;
@@ -54,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
     public static final int CONNECTION_TIMEOUT = 10000;
     public static final int READ_TIMEOUT = 15000;
     GridLayoutManager layoutManager;
-   // LinearLayoutManager layoutManager;
+    // LinearLayoutManager layoutManager;
     String name;
 
     @Override
@@ -65,15 +48,16 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
         rvRecipes = (RecyclerView) findViewById(R.id.rv_recipes);
         pbLoading = (ProgressBar) findViewById(R.id.pb_loading_indicator);
 
+        if(findViewById(R.id.android_me_linear_layout) != null){
+            this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        }
+
 
         pdLoading = null;
         //Make call to AsyncTask
         new FetchBakesTask().execute();
 
     }
-
-
-
 
 
     @Override
@@ -86,10 +70,10 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
     }
 
     @Override
-    public void onPause(){
+    public void onPause() {
 
         super.onPause();
-        if(pdLoading != null)
+        if (pdLoading != null)
             pdLoading.dismiss();
     }
 
@@ -98,9 +82,9 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
         //this method will be running on UI thread
         try {
             // Setup and Handover data to recyclerview
-          //  layoutManager = new GridLayoutManager(this, calculateNoOfColumns(this));
+            //  layoutManager = new GridLayoutManager(this, calculateNoOfColumns(this));
             layoutManager = new GridLayoutManager(this, 2);
-           // layoutManager = new LinearLayoutManager(this);
+            // layoutManager = new LinearLayoutManager(this);
 
             mAdapter = new RecipeListAdapter(getApplicationContext(), this, recipes);
             rvRecipes.setLayoutManager(layoutManager);
@@ -113,87 +97,80 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
 
     }
 
-public class FetchBakesTask extends AsyncTask<Void,Void ,ArrayList<Recipe> >{
+    public class FetchBakesTask extends AsyncTask<Void, Void, ArrayList<Recipe>> {
 
-    private ProgressDialog dialog;
+        private ProgressDialog dialog;
 
-    @Override
-    protected void onPreExecute() {
-        super.onPreExecute();
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
 
-        dialog = ProgressDialog.show(MainActivity.this,"","Loading...", true,false);
-    }
+            dialog = ProgressDialog.show(MainActivity.this, "", "Loading...", true, false);
+        }
 
-    @Override
-    protected ArrayList<Recipe> doInBackground(Void... voids) {
-        HttpURLConnection urlConnection = null;
-        BufferedReader reader = null;
+        @Override
+        protected ArrayList<Recipe> doInBackground(Void... voids) {
+            HttpURLConnection urlConnection = null;
+            BufferedReader reader = null;
 
-        try {
-            Uri builtUri = Uri.parse("https://d17h27t6h515a5.cloudfront.net/topher/2017/May/59121517_baking/baking.json")
-                    .buildUpon()
-                    .build();
-
-            URL url = new URL(builtUri.toString());
-
-            urlConnection = (HttpURLConnection) url.openConnection();
-            urlConnection.setRequestMethod("GET");
-            urlConnection.connect();
-            InputStream inputStream = urlConnection.getInputStream();
-            StringBuffer buffer = new StringBuffer();
-            if (inputStream == null) {
-                return null;
-            }
-            reader = new BufferedReader(new InputStreamReader(inputStream));
-
-            String line;
-            while ((line = reader.readLine()) != null) {
-                buffer.append(line + "\n");
-            }
-            if (buffer.length() == 0) {
-                return null;
-            }
-
-            JSONArray jArray = new JSONArray(buffer.toString());
-            recipes = new ArrayList<>();
-            for(int i=0;i<jArray.length();i++){
-                recipes.add(new Recipe(jArray.getJSONObject(i)));
-            }
-
-            return recipes;
-        } catch (Exception e) {
-            e.printStackTrace();
-            return recipes;
-        } finally {
             try {
-                if (urlConnection != null) {
-                    urlConnection.disconnect();
+                Uri builtUri = Uri.parse("https://d17h27t6h515a5.cloudfront.net/topher/2017/May/59121517_baking/baking.json")
+                        .buildUpon()
+                        .build();
+
+                URL url = new URL(builtUri.toString());
+
+                urlConnection = (HttpURLConnection) url.openConnection();
+                urlConnection.setRequestMethod("GET");
+                urlConnection.connect();
+                InputStream inputStream = urlConnection.getInputStream();
+                StringBuffer buffer = new StringBuffer();
+                if (inputStream == null) {
+                    return null;
                 }
-                if (reader != null) {
-                    reader.close();
+                reader = new BufferedReader(new InputStreamReader(inputStream));
+
+                String line;
+                while ((line = reader.readLine()) != null) {
+                    buffer.append(line + "\n");
                 }
+                if (buffer.length() == 0) {
+                    return null;
+                }
+
+                JSONArray jArray = new JSONArray(buffer.toString());
+                recipes = new ArrayList<>();
+                for (int i = 0; i < jArray.length(); i++) {
+                    recipes.add(new Recipe(jArray.getJSONObject(i)));
+                }
+
+                return recipes;
             } catch (Exception e) {
                 e.printStackTrace();
+                return recipes;
+            } finally {
+                try {
+                    if (urlConnection != null) {
+                        urlConnection.disconnect();
+                    }
+                    if (reader != null) {
+                        reader.close();
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
         }
-    }
 
-    @Override
-    protected void onPostExecute(ArrayList<Recipe> recipes) {
-        if (dialog.isShowing()) {
-            dialog.dismiss();
-        }else {
-            Toast.makeText(getApplicationContext(),"dialog is not found", Toast.LENGTH_SHORT).show();
+        @Override
+        protected void onPostExecute(ArrayList<Recipe> recipes) {
+            if (dialog.isShowing()) {
+                dialog.dismiss();
+            } else {
+                Toast.makeText(getApplicationContext(), "dialog is not found", Toast.LENGTH_SHORT).show();
+            }
+            loadList(recipes);
         }
-        loadList(recipes);
     }
-}
 
-    public static int calculateNoOfColumns(Context context) {
-        DisplayMetrics displayMetrics = context.getResources().getDisplayMetrics();
-        float dpWidth = displayMetrics.widthPixels / displayMetrics.density;
-        int scalingFactor = 400;
-        int noOfColumns = (int) (dpWidth / scalingFactor);
-        return noOfColumns;
-    }
 }

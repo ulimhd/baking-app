@@ -65,9 +65,6 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
         tvIngredients = (TextView) rootView.findViewById(R.id.tv_ingredient);
 
         index = getActivity().getIntent().getExtras().getInt("item_index");
-        Log.d("index", String.valueOf(index));
-        Log.d("recipe_name", recipes.get(index).getName());
-        Log.d("steps:", recipes.get(index).getStep().toString());
         step = recipes.get(index).getStep();
         ingredient = recipes.get(index).getIngredient();
 
@@ -75,19 +72,15 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
          layoutManagerStep = new LinearLayoutManager(getActivity());
 
         stepAdapter = new StepAdapter(getActivity(), this, step, "R.layout.fragment_master_list");
-        Log.d("stepAdapter", String.valueOf(stepAdapter));
 
         stepRecyclerView.setLayoutManager(layoutManagerStep);
-        Log.d("getCount", String.valueOf(stepAdapter.getItemCount()));
         stepRecyclerView.setAdapter(stepAdapter);
-
         totalStep = stepAdapter.getItemCount();
 
         tvIngredients.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 if(mTwoPane) {
-                    Toast.makeText(getActivity(), "Click Ingredient!", Toast.LENGTH_LONG).show();
                     bundle.putString("source", "tvIngredients");
 
                     FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
@@ -111,7 +104,7 @@ public class MasterListFragment extends Fragment implements StepAdapter.StepAdap
     public void onClick(int clickedItemIndex) {
         if(mTwoPane) {
             //    Toast.makeText(getActivity(), step.get(index).getShortDescription(), Toast.LENGTH_LONG).show();
-            Toast.makeText(getActivity(), getActivity().toString(), Toast.LENGTH_LONG).show();
+            //Toast.makeText(getActivity(), getActivity().toString(), Toast.LENGTH_LONG).show();
 
             bundle.putString("source", "recyclerView");
             bundle.putInt("item_index", clickedItemIndex);

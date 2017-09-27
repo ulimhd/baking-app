@@ -18,7 +18,6 @@ public class IngredientActivity extends AppCompatActivity {
 
         if(savedInstanceState == null) {
             String source = getIntent().getExtras().getString("source");
-            Log.d("source", source);
 
             if(source.equals("tvIngredients")){
                 FragmentManager fragmentManager = getSupportFragmentManager();

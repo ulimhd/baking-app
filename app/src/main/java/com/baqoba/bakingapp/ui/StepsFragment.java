@@ -116,11 +116,7 @@ public class StepsFragment extends Fragment implements ExoPlayer.EventListener{
                 index = bundle.getInt("item_index");
                 videoUrl = step.get(index).getVideoURL();
                 stepDescription = step.get(index).getDescription();
-                Log.d("videUrl", videoUrl);
-                Log.d("stepdesc", stepDescription);
-                Log.d("total_step", String.valueOf(totalStep));
                 tvDescription.setText(stepDescription);
-                Log.d("stedesc1", tvDescription.getText().toString());
 
                 if(!videoUrl.isEmpty()){
                     initializeMediaSession();
@@ -152,7 +148,6 @@ public class StepsFragment extends Fragment implements ExoPlayer.EventListener{
             @Override
             public void onClick(View v) {
                 if(nextVal<=totalStep-1) {
-                    Toast.makeText(getActivity(), "Click Next!", Toast.LENGTH_LONG).show();
                     bundleSet.putInt("item_index", nextVal);
 
                     FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
@@ -174,7 +169,6 @@ public class StepsFragment extends Fragment implements ExoPlayer.EventListener{
             public void onClick(View v) {
 
                 if(prevVal>=0) {
-                    Toast.makeText(getActivity(), "Click Next!", Toast.LENGTH_LONG).show();
                     bundleSet.putInt("item_index", prevVal);
 
                     FragmentManager fragmentManager = getActivity().getSupportFragmentManager();

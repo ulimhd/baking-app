@@ -2757,9 +2757,10 @@ containing a value of this type.
         public static final int exo_controls_stop_description=0x7f070019;
         public static final int hello_blank_fragment=0x7f07002e;
         public static final int ingredients=0x7f07002f;
-        public static final int name=0x7f070030;
+        public static final int layout_flag=0x7f070030;
+        public static final int name=0x7f070031;
         public static final int search_menu_title=0x7f07001a;
-        public static final int servings=0x7f070031;
+        public static final int servings=0x7f070032;
         public static final int status_bar_notification_info_overflow=0x7f07001b;
     }
     public static final class style {

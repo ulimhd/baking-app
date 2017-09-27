@@ -30,24 +30,19 @@ public class DetailActivity extends AppCompatActivity {
         }
 
         if(findViewById(R.id.android_me_linear_layout) != null){
-         //   this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+            this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
             mTwoPane = true;
-            Log.d("twopane, ", String.valueOf(mTwoPane));
 
             if(savedInstanceState == null) {
-                Log.d("instancenull", "isnull");
                 FragmentManager fragmentManager = getSupportFragmentManager();
                 IngredientFragment ingredientFragment = new IngredientFragment();
                 fragmentManager.beginTransaction()
                         .replace(R.id.detail_container, ingredientFragment)
                         .commit();
             }
-            else{
-                Log.d("instancenotnull", "notnull");
-            }
+
         }else{
             mTwoPane = false;
-            Log.d("twopane, ", String.valueOf(mTwoPane));
         }
     }
 

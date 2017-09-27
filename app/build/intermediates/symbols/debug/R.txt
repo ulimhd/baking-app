@@ -898,9 +898,10 @@ int string exo_controls_rewind_description 0x7f070018
 int string exo_controls_stop_description 0x7f070019
 int string hello_blank_fragment 0x7f07002e
 int string ingredients 0x7f07002f
-int string name 0x7f070030
+int string layout_flag 0x7f070030
+int string name 0x7f070031
 int string search_menu_title 0x7f07001a
-int string servings 0x7f070031
+int string servings 0x7f070032
 int string status_bar_notification_info_overflow 0x7f07001b
 int style AlertDialog_AppCompat 0x7f0900a1
 int style AlertDialog_AppCompat_Light 0x7f0900a2
