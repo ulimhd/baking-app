@@ -16,16 +16,16 @@
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\home\\ulimhd\\.android\\build-cache\\708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8\\output\\res\\layout\\notification_template_icon_group.xml"
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\home\\ulimhd\\.android\\build-cache\\708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
@@ -40,12 +40,12 @@
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/res/merged/debug/layout/list_recipes.xml",
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/src/main/res/layout/list_recipes.xml"
+    },
+    {
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/layout/abc_action_bar_title_item.xml"
     },
     {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
@@ -92,20 +92,20 @@
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
-        "source": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/layout/abc_alert_dialog_title_material.xml"
-    },
-    {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\home\\ulimhd\\.android\\build-cache\\708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_recipes.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\src\\main\\res\\layout\\list_recipes.xml"
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/home/ulimhd/.android/build-cache/708e6677f47c83fd5ad7cbf65c23a8d5b28dffc8/output/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_recipes.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\src\\main\\res\\layout\\list_recipes.xml"
     },
     {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
@@ -120,20 +120,20 @@
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_ingredient.xml",
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\src\\main\\res\\layout\\list_ingredient.xml"
     },
     {
-        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\layout\\notification_action.xml"
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\Misc\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/C:\\Users\\Admin\\.android\\build-cache\\992a1fd6d6a1c427a2876f43647f7fcc3509edf9\\output\\res\\layout\\notification_action.xml"
     },
     {
         "merged": "/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/D:\\media\\ulimhd\\Data\\Uli\\AndroidStudioProjects\\BakingApp\\baking-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\baking_widget.xml",

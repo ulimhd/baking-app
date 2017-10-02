@@ -30,7 +30,7 @@ public class DetailActivity extends AppCompatActivity {
         }
 
         if(findViewById(R.id.android_me_linear_layout) != null){
-            this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+  //          this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
             mTwoPane = true;
 
             if(savedInstanceState == null) {

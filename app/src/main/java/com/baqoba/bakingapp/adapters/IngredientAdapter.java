@@ -26,7 +26,6 @@ public class IngredientAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
         //this.mContext = context;
         //  recipeResults= new ArrayList<>();
         this.ingredientResults = ingredient;
-        Log.d("fadsfadsfa", "fadsfadsf");
     }
 
     protected class MyItemHolder extends RecyclerView.ViewHolder{
@@ -38,7 +37,6 @@ public class IngredientAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
             tvQuantity = (TextView) itemView.findViewById(R.id.tv_quantity);
             tvMeasure = (TextView) itemView.findViewById(R.id.tv_measure);
             tvIngredientName = (TextView) itemView.findViewById(R.id.tv_ingredient_name);
-            Log.d("AAAAAA", "AAAAAA");
         }
     }
 
@@ -48,7 +46,6 @@ public class IngredientAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
 
         viewHolder = getViewHolder(parent, inflater);
-        Log.d("bbbbbb", "bbbbb");
         return viewHolder;
     }
 
@@ -57,7 +54,6 @@ public class IngredientAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
         RecyclerView.ViewHolder viewHolder;
         View view = inflater.inflate(R.layout.list_ingredient, parent, false);
         viewHolder = new MyItemHolder(view);
-        Log.d("ccccc", "ccccc");
         return viewHolder;
     }
 
@@ -68,7 +64,6 @@ public class IngredientAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
         myItemHolder.tvQuantity.setText(String.valueOf(result.getQuantity()));
         myItemHolder.tvMeasure.setText(result.getMeasure());
         myItemHolder.tvIngredientName.setText(result.getIngredient());
-        Log.d("ddddd", "ddddd");
         //TODO (1) Set for multipole view holder for StepAdapter: one for in fragment_master_list, one for used in step description
     }
 

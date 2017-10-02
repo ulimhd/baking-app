@@ -81,26 +81,31 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
         Recipe result = recipeResults.get(position);
         final MyItemHolder myItemHolder = (MyItemHolder) holder;
 
-        int recipeImage;
+        String recipeImage = result.getImage();
         String recipeName= result.getName();
 
         myItemHolder.tvRecipeName.setText(recipeName);
 
-        switch(recipeName){
-            case "Nutella Pie":
-                Picasso.with(mContext).load(R.drawable.nutella_pie).into(myItemHolder.ivRecipeImage);
-                break;
-            case "Brownies":
-                Picasso.with(mContext).load(R.drawable.brownies).into(myItemHolder.ivRecipeImage);
-                break;
-            case "Yellow Cake":
-                Picasso.with(mContext).load(R.drawable.yellow_cake).into(myItemHolder.ivRecipeImage);
-                break;
-            case "Cheesecake":
-                Picasso.with(mContext).load(R.drawable.cheesecake).into(myItemHolder.ivRecipeImage);
-                break;
-            default:
-                break;
+        if(recipeImage.isEmpty()) {
+
+            switch (recipeName) {
+                case "Nutella Pie":
+                    Picasso.with(mContext).load(R.drawable.nutella_pie).into(myItemHolder.ivRecipeImage);
+                    break;
+                case "Brownies":
+                    Picasso.with(mContext).load(R.drawable.brownies).into(myItemHolder.ivRecipeImage);
+                    break;
+                case "Yellow Cake":
+                    Picasso.with(mContext).load(R.drawable.yellow_cake).into(myItemHolder.ivRecipeImage);
+                    break;
+                case "Cheesecake":
+                    Picasso.with(mContext).load(R.drawable.cheesecake).into(myItemHolder.ivRecipeImage);
+                    break;
+                default:
+                    break;
+            }
+        }else{
+            Picasso.with(mContext).load(recipeImage).into(myItemHolder.ivRecipeImage);
         }
 
     }

@@ -28,8 +28,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity implements RecipeListAdapter.RecipeListAdapterOnClickHandler {
 
     private RecyclerView rvRecipes;
-    private ProgressBar pbLoading;
-    ProgressDialog pdLoading;
+    ProgressDialog dialog;
 
     RecipeListAdapter mAdapter;
     public static ArrayList<Recipe> recipes = new ArrayList<>();
@@ -46,23 +45,20 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
         setContentView(R.layout.activity_main);
 
         rvRecipes = (RecyclerView) findViewById(R.id.rv_recipes);
-        pbLoading = (ProgressBar) findViewById(R.id.pb_loading_indicator);
 
-        if(findViewById(R.id.android_me_linear_layout) != null){
+    /*    if(findViewById(R.id.android_me_linear_layout) != null){
             this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         }
+*/
 
-
-        pdLoading = null;
         //Make call to AsyncTask
         new FetchBakesTask().execute();
 
     }
 
-
     @Override
     public void onClick(int clickedItemIndex) {
-        Toast.makeText(MainActivity.this, recipes.get(clickedItemIndex).getName(), Toast.LENGTH_LONG).show();
+     //   Toast.makeText(MainActivity.this, recipes.get(clickedItemIndex).getName(), Toast.LENGTH_LONG).show();
         Intent intent = new Intent(getApplicationContext(), DetailActivity.class);
 
         intent.putExtra("item_index", clickedItemIndex);
@@ -73,8 +69,8 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
     public void onPause() {
 
         super.onPause();
-        if (pdLoading != null)
-            pdLoading.dismiss();
+        if (dialog != null)
+            dialog.dismiss();
     }
 
     protected void loadList(ArrayList<Recipe> recipes) {
@@ -99,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
 
     public class FetchBakesTask extends AsyncTask<Void, Void, ArrayList<Recipe>> {
 
-        private ProgressDialog dialog;
+
 
         @Override
         protected void onPreExecute() {
@@ -164,7 +160,7 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
 
         @Override
         protected void onPostExecute(ArrayList<Recipe> recipes) {
-            if (dialog.isShowing()) {
+            if ((dialog != null) && dialog.isShowing()) {
                 dialog.dismiss();
             } else {
                 Toast.makeText(getApplicationContext(), "dialog is not found", Toast.LENGTH_SHORT).show();

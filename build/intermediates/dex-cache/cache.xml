@@ -38,6 +38,15 @@
         <dex dex="/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/pre-dexed/androidTest/debug/accessibility-test-framework-2.0_5199387079ecc7bc5610f2364fbf7798762caa43.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ffe1158530f8155ac92d8c1a82392509f8f4ecbe/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/home/ulimhd/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
         jumboMode="false"
@@ -63,6 +72,15 @@
         revision="26.0.1"
         sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
         <dex dex="/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/pre-dexed/androidTest/debug/classes_6556552dd48397a937dae15cf9784a1a39b4fde7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1bfadea37295109b98d62dc882b535fab3fad3d6">
+        <dex dex="/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_bfa832380a08a38178adf275dc6f55ee339f54e2/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -108,6 +126,15 @@
         revision="26.0.1"
         sha1="31ead391552fc8d93a7b87b0f15e83755b908904">
         <dex dex="/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/pre-dexed/debug/classes_4030c069b4442a9b3b8efa4ed79bdac9915fe630.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ulimhd/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/media/ulimhd/Data/Uli/AndroidStudioProjects/BakingApp/baking-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_2c7f401772205fb77730b520ebaaf6c2dc566c02/classes.dex" />
     </item>
     <item
         is-multidex="false"

@@ -1,6 +1,7 @@
 package com.baqoba.bakingapp.ui;
 
 import android.content.Context;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -12,6 +13,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -33,6 +35,7 @@ import com.google.android.exoplayer2.trackselection.TrackSelector;
 import com.google.android.exoplayer2.ui.SimpleExoPlayerView;
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
 import com.google.android.exoplayer2.util.Util;
+import com.squareup.picasso.Picasso;
 
 import static com.baqoba.bakingapp.ui.MasterListFragment.step;
 import static com.baqoba.bakingapp.ui.MasterListFragment.totalStep;
@@ -55,15 +58,15 @@ public class StepsFragment extends Fragment implements ExoPlayer.EventListener{
     View rootView;
 
     int index=0;
-    String videoUrl, stepDescription;
+    String videoUrl, stepDescription, thumbnailImage;
 
     private static final String TAG = IngredientActivity.class.getSimpleName();
 
     private SimpleExoPlayer mExoPlayer;
     private SimpleExoPlayerView mPlayerView;
 
-    private SimpleExoPlayer exoPlayer;
-    private SimpleExoPlayerView playerView;
+  //  private SimpleExoPlayer exoPlayer;
+  //  private SimpleExoPlayerView playerView;
     private static MediaSessionCompat mMediaSession;
     private PlaybackStateCompat.Builder mStateBuilder;
 
@@ -71,6 +74,7 @@ public class StepsFragment extends Fragment implements ExoPlayer.EventListener{
 
     TextView tvDescription;
     Button btnNext, btnPrevious;
+    ImageView ivThumbnail;
 
     private static long position = 0;
 
@@ -107,6 +111,7 @@ public class StepsFragment extends Fragment implements ExoPlayer.EventListener{
         tvDescription = (TextView) rootView.findViewById(R.id.tv_description);
         btnNext = (Button) rootView.findViewById(R.id.btn_next_step);
         btnPrevious = (Button) rootView.findViewById(R.id.btn_prev_step);
+        ivThumbnail = (ImageView) rootView.findViewById(R.id.iv_thumbnail);
 
         Bundle bundle = this.getArguments();
 
@@ -117,6 +122,12 @@ public class StepsFragment extends Fragment implements ExoPlayer.EventListener{
                 videoUrl = step.get(index).getVideoURL();
                 stepDescription = step.get(index).getDescription();
                 tvDescription.setText(stepDescription);
+                thumbnailImage = step.get(index).getThumbnailURL();
+                Log.d("image:" , thumbnailImage);
+
+                if(!thumbnailImage.isEmpty()){
+                    Picasso.with(getContext()).load(thumbnailImage).into(ivThumbnail);
+                }
 
                 if(!videoUrl.isEmpty()){
                     initializeMediaSession();
@@ -147,18 +158,23 @@ public class StepsFragment extends Fragment implements ExoPlayer.EventListener{
 
             @Override
             public void onClick(View v) {
-                if(nextVal<=totalStep-1) {
-                    bundleSet.putInt("item_index", nextVal);
+            //    if(mExoPlayer != null) {
+                    releasePlayer();
+            //    }
 
-                    FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                    StepsFragment stepsFragment = new StepsFragment();
-                    stepsFragment.setArguments(bundleSet);
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.detail_container, stepsFragment)
-                            .commit();
+                    if (nextVal <= totalStep - 1) {
+                        bundleSet.putInt("item_index", nextVal);
+
+                        FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                        StepsFragment stepsFragment = new StepsFragment();
+                        stepsFragment.setArguments(bundleSet);
+                        fragmentManager.beginTransaction()
+                                .replace(R.id.detail_container, stepsFragment)
+                                .commit();
 
 
                     }
+
             }
         });
 
@@ -168,24 +184,28 @@ public class StepsFragment extends Fragment implements ExoPlayer.EventListener{
             @Override
             public void onClick(View v) {
 
-                if(prevVal>=0) {
-                    bundleSet.putInt("item_index", prevVal);
+            //    if(mExoPlayer != null) {
+                    releasePlayer();
+            //    }
+                    if (prevVal >= 0) {
+                        bundleSet.putInt("item_index", prevVal);
 
-                    FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                    StepsFragment stepsFragment = new StepsFragment();
-                    stepsFragment.setArguments(bundleSet);
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.detail_container, stepsFragment)
-                            .commit();
-                }else{
-                    FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                    IngredientFragment ingredientFragment = new IngredientFragment();
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.detail_container, ingredientFragment)
-                            .commit();
+
+                        FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                        StepsFragment stepsFragment = new StepsFragment();
+                        stepsFragment.setArguments(bundleSet);
+                        fragmentManager.beginTransaction()
+                                .replace(R.id.detail_container, stepsFragment)
+                                .commit();
+                    } else {
+                        FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                        IngredientFragment ingredientFragment = new IngredientFragment();
+                        fragmentManager.beginTransaction()
+                                .replace(R.id.detail_container, ingredientFragment)
+                                .commit();
+                    }
                 }
 
-            }
         });
 
 
@@ -272,7 +292,7 @@ public class StepsFragment extends Fragment implements ExoPlayer.EventListener{
     }
 
     private void initializePlayer(Uri mediaUri) {
-        if (exoPlayer == null) {
+        if (mExoPlayer == null) {
             // Create an instance of the ExoPlayer.
             TrackSelector trackSelector = new DefaultTrackSelector();
             LoadControl loadControl = new DefaultLoadControl();
@@ -289,11 +309,27 @@ public class StepsFragment extends Fragment implements ExoPlayer.EventListener{
     }
 
     private void releasePlayer() {
-        mExoPlayer.stop();
-        mExoPlayer.release();
-        mExoPlayer = null;
+        if(mExoPlayer!=null) {
+            mExoPlayer.stop();
+            mExoPlayer.release();
+            mExoPlayer = null;
+          //  updateResumePosition();
+        }
+    }
+/*
+    @Override
+    public void onPause() {
+        super.onPause();
+        mExoPlayer.setPlayWhenReady(false);
+        mMediaSession.setActive(false);
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        mMediaSession.setActive(true);
+    }
+*/
     /**
      * Release the player when the activity is destroyed.
      */
@@ -349,6 +385,23 @@ public class StepsFragment extends Fragment implements ExoPlayer.EventListener{
     /**
      * Media Session Callbacks, where all external clients control the player.
      */
+ /*   private class MySessionCallback extends MediaSessionCompat.Callback {
+        @Override
+        public void onPlay() {
+            mExoPlayer.setPlayWhenReady(true);
+        }
+
+        @Override
+        public void onPause() {
+            mExoPlayer.setPlayWhenReady(false);
+        }
+
+        @Override
+        public void onSkipToPrevious() {
+            mExoPlayer.seekTo(0);
+        }
+    }
+*/
     private class MySessionCallback extends MediaSessionCompat.Callback {
         @Override
         public void onPlay() {

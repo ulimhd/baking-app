@@ -61,17 +61,16 @@ public class WidgetViews implements RemoteViewsService.RemoteViewsFactory {
 
     @Override
     public int getCount() {
-        return recipes.size();
+        //return recipes.size();
+
+        return 1;
     }
 
     @Override
     public RemoteViews getViewAt(int position) {
         RemoteViews rv = new RemoteViews(mContext.getPackageName(), R.layout.baking_list_widget);
-/*        try {
-            rv.setImageViewBitmap(R.id.icon, BitmapFactory.decodeStream(new URL(recipes.get(position).getImage()).openConnection().getInputStream()));
-        } catch (IOException e) {
-        }
-  */      Log.d("recName:", "fjads;fa");
+
+        position=3;
         rv.setTextViewText(R.id.name, recipes.get(position).getName());
         rv.setTextViewText(R.id.servings, mContext.getString(R.string.servings) + " " + recipes.get(position).getServings());
         for (int i=0;i<recipes.get(position).getIngredient().size();i++){
@@ -79,12 +78,12 @@ public class WidgetViews implements RemoteViewsService.RemoteViewsFactory {
             ing.setTextViewText(R.id.tv_ingredient_name,recipes.get(position).getIngredient().get(i).getIngredient());
             ing.setTextViewText(R.id.tv_measure,recipes.get(position).getIngredient().get(i).getMeasure());
             ing.setTextViewText(R.id.tv_quantity,recipes.get(position).getIngredient().get(i).getQuantity()+"");
-            rv.addView(R.id.ingerdient_list,ing);
+            rv.addView(R.id.ingredient_list,ing);
         }
 
         Intent intent = new Intent();
         intent.putExtra("item", position);
-        rv.setOnClickFillInIntent(R.id.bacckground, intent);
+        rv.setOnClickFillInIntent(R.id.background, intent);
         return rv;
     }
 
@@ -141,10 +140,10 @@ public class WidgetViews implements RemoteViewsService.RemoteViewsFactory {
                 if (buffer.length() == 0) {
                     return null;
                 }
-                JSONArray movieArray = new JSONArray(buffer.toString());
+                JSONArray recipeArray = new JSONArray(buffer.toString());
                 recipes = new ArrayList<>();
-                for (int i = 0; i < movieArray.length(); i++) {
-                    recipes.add(new Recipe(movieArray.getJSONObject(i)));
+                for (int i = 0; i < recipeArray.length(); i++) {
+                    recipes.add(new Recipe(recipeArray.getJSONObject(i)));
                     Log.e("name: ", recipes.get(i).getName());
                 }
             } catch (Exception e) {

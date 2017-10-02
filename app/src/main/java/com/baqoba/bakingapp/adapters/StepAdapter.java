@@ -59,7 +59,6 @@ public class StepAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>  
         //  StepResults= new ArrayList<>();
         this.stepResults = steps;
         mClickHandler = clickHandler;
-        Log.d("fadksfa;", "dalfd");
         this.layoutName = layoutName;
 
     }
@@ -73,12 +72,9 @@ public class StepAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>  
         private TextView tvShortDescription;
 
 
-
         public MyItemHolder(View itemView) {
             super(itemView);
             tvShortDescription = (TextView) itemView.findViewById(R.id.tv_short_description);
-
-
 
             itemView.setOnClickListener(this);
         }
@@ -89,24 +85,7 @@ public class StepAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>  
             mClickHandler.onClick(clickedPosition);
         }
     }
-/*
-    @Override
-    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-    //    RecyclerView.ViewHolder viewHolder = null;
-        LayoutInflater inflater = LayoutInflater.from(parent.getContext());
 
-        viewHolder = getViewHolder(parent, inflater);
-        return viewHolder;
-    }
-
-    @NonNull
-    private RecyclerView.ViewHolder getViewHolder(ViewGroup parent, LayoutInflater inflater) {
-        RecyclerView.ViewHolder viewHolder;
-        View view = inflater.inflate(R.layout.list_step, parent, false);
-        viewHolder = new MyItemHolder(view);
-        return viewHolder;
-    }
-*/
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
@@ -125,39 +104,9 @@ public class StepAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>  
         switch(holder.getItemViewType()){
             case 0:
                 myItemHolder.tvShortDescription.setText(result.getShortDescription());
-                Log.d("holder.get0", String.valueOf(holder.getItemViewType()));
                 break;
             case 1:
                 myItemHolder.tvShortDescription.setVisibility(View.GONE);
-/*
-                shouldAutoPlay = true;
-                bandwidthMeter = new DefaultBandwidthMeter();
-                mediaDataSourceFactory = new DefaultDataSourceFactory(this, Util.getUserAgent(mContext, "mediaPlayerSample"), (TransferListener<? super DataSource>) bandwidthMeter);
-                window = new Timeline.Window();
-
-                myItemHolder.simpleExoPlayerView.requestFocus();
-                TrackSelection.Factory videoTrackSelectionFactory =
-                        new AdaptiveTrackSelection.Factory(bandwidthMeter);
-
-                trackSelector = new DefaultTrackSelector(videoTrackSelectionFactory);
-
-                player = ExoPlayerFactory.newSimpleInstance(mContext, trackSelector);
-
-                myItemHolder.simpleExoPlayerView.setPlayer(player);
-                */
-/*
-                TrackSelector trackSelector = new DefaultTrackSelector();
-                LoadControl loadControl = new DefaultLoadControl();
-                player = ExoPlayerFactory.newSimpleInstance(getContext(), trackSelector, loadControl);
-                myItemHolder.simpleExoPlayerView.setPlayer(player);
-                // Prepare the MediaSource.
-                String userAgent = Util.getUserAgent(mContext, "ClassicalMusicQuiz");
-                MediaSource mediaSource = new ExtractorMediaSource(Uri.parse(result.getVideoURL()), new DefaultDataSourceFactory(
-                        mContext, userAgent), new DefaultExtractorsFactory(), null, null);
-                player.prepare(mediaSource);
-                player.setPlayWhenReady(true);
-*/
-                Log.d("holder.get1", String.valueOf(holder.getItemViewType()));
                 break;
             default:
                 break;

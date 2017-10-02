@@ -8,6 +8,8 @@ import android.util.Log;
 
 import com.baqoba.bakingapp.R;
 
+import static com.baqoba.bakingapp.ui.MainActivity.recipes;
+
 public class IngredientActivity extends AppCompatActivity {
     public static Bundle bundle = new Bundle();
 
@@ -15,6 +17,12 @@ public class IngredientActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ingredient);
+
+        if (getSupportActionBar() != null)
+        {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            setTitle("Ingredients");
+        }
 
         if(savedInstanceState == null) {
             String source = getIntent().getExtras().getString("source");

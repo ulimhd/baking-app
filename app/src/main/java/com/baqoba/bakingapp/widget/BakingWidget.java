@@ -24,14 +24,13 @@ public class BakingWidget extends AppWidgetProvider {
             RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.baking_widget);
             Intent titleIntent = new Intent(context, MainActivity.class);
             PendingIntent titlePendingIntent = PendingIntent.getActivity(context, 0, titleIntent, 0);
-            views.setOnClickPendingIntent(R.id.widgetTitleLabel, titlePendingIntent);
-            Log.d("jads;fa", "fasfads");
+            views.setOnClickPendingIntent(R.id.widget_title_label, titlePendingIntent);
             Intent intent = new Intent(context, WidgetService.class);
-            views.setRemoteAdapter(R.id.widgetListView, intent);
+            views.setRemoteAdapter(R.id.widget_list_view, intent);
 
             Intent clickIntentTemplate = new Intent(context, DetailActivity.class);
             PendingIntent clickPendingIntentTemplate = PendingIntent.getActivity(context, 0, clickIntentTemplate, PendingIntent.FLAG_UPDATE_CURRENT);
-            views.setPendingIntentTemplate(R.id.widgetListView, clickPendingIntentTemplate);
+            views.setPendingIntentTemplate(R.id.widget_list_view, clickPendingIntentTemplate);
 
             appWidgetManager.updateAppWidget(appWidgetId, views);
         }
@@ -44,7 +43,7 @@ public class BakingWidget extends AppWidgetProvider {
         if (action.equals(AppWidgetManager.ACTION_APPWIDGET_UPDATE)) {
             AppWidgetManager mgr = AppWidgetManager.getInstance(context);
             ComponentName cn = new ComponentName(context, BakingWidget.class);
-            mgr.notifyAppWidgetViewDataChanged(mgr.getAppWidgetIds(cn), R.id.widgetListView);
+            mgr.notifyAppWidgetViewDataChanged(mgr.getAppWidgetIds(cn), R.id.widget_list_view);
         }
         super.onReceive(context, intent);
     }
