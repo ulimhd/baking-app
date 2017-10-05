@@ -41,6 +41,16 @@ public class MainActivityTest {
                 (matches(hasDescendant(withText("Cheesecake"))));
     }
 
+    @Test
+    public void clickRecyclerViewActivity(){
+        onView((withId(R.id.rv_recipes)))
+                .perform(RecyclerViewActions.actionOnItemAtPosition(1,click()));
+
+        onView(withId(R.id.tv_ingredient))
+                .check(matches(withText("Ingredients")))
+                .check(matches(isDisplayed()));
+    }
+
 
 
 }

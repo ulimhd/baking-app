@@ -73,6 +73,11 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
             dialog.dismiss();
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
     protected void loadList(ArrayList<Recipe> recipes) {
 
         //this method will be running on UI thread

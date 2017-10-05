@@ -316,20 +316,28 @@ public class StepsFragment extends Fragment implements ExoPlayer.EventListener{
           //  updateResumePosition();
         }
     }
-/*
+
     @Override
     public void onPause() {
         super.onPause();
-        mExoPlayer.setPlayWhenReady(false);
-        mMediaSession.setActive(false);
+        releasePlayer();
+    /*    if(mExoPlayer!=null) {
+            mExoPlayer.setPlayWhenReady(false);
+        }
+    */    if(mMediaSession!=null) {
+            mMediaSession.setActive(false);
+        }
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        mMediaSession.setActive(true);
+        releasePlayer();
+        if(mMediaSession!=null) {
+            mMediaSession.setActive(false);
+        }
     }
-*/
+
     /**
      * Release the player when the activity is destroyed.
      */
@@ -337,7 +345,9 @@ public class StepsFragment extends Fragment implements ExoPlayer.EventListener{
     public void onDestroy() {
         super.onDestroy();
         releasePlayer();
-        mMediaSession.setActive(false);
+        if(mMediaSession!=null) {
+            mMediaSession.setActive(false);
+        }
     }
 
 
