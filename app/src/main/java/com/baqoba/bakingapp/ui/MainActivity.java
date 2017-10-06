@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
         protected void onPostExecute(ArrayList<Recipe> recipes) {
             if ((dialog != null) && dialog.isShowing()) {
                 dialog.dismiss();
-            } 
+            }
             loadList(recipes);
         }
     }
