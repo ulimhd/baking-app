@@ -167,9 +167,7 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
         protected void onPostExecute(ArrayList<Recipe> recipes) {
             if ((dialog != null) && dialog.isShowing()) {
                 dialog.dismiss();
-            } else {
-                Toast.makeText(getApplicationContext(), "dialog is not found", Toast.LENGTH_SHORT).show();
-            }
+            } 
             loadList(recipes);
         }
     }
